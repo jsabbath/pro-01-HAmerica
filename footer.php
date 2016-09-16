@@ -1,8 +1,6 @@
-
-
-    <footer class="footer">
+    <footer class="footer" style="padding-top: 10px;">
       <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
+        <p class="text-muted">Hospedaje America ©2016 - Developed by Enigma ♚</p>
       </div>
     </footer>
 
