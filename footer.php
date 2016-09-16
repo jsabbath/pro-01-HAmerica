@@ -29,6 +29,13 @@
         $(".left").click(function(){
             $("#myCarousel").carousel("prev");
         });
+
+        $('#myTooltip').on('hidden.bs.tooltip', function () {
+          // do something…
+        })
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+        })
     </script>
 
 </body>
