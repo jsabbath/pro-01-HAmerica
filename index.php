@@ -50,14 +50,15 @@
             </div>
             <div class="row">
                 <div class="row" style='margin-bottom: 30px'>
-                    <h1>Promos AmericROOM</h1>
+                    
+                    <h1><img src="img/ofertas.png" alt="" style='width:150px; z-index: 1'>AmericROOM</h1>
                 </div>
                 <div class="col-xs-12 col-ms-6 col-md-6 col-lg-3">
                     <div class="card">
                       <img class="card-img-top img-responsive" src="img/LIBROS-MOCKUP.jpeg" alt="Card image cap">
                       <div class="card-block">
                         <h4 class="card-title">Habitación Simple</h4>
-                        <p class="card-text"><small class="text-muted">S/. 30.00 Soles</small></p>
+                        <p class="card-text"><small class="text-muted">S/. 30.00 Soles </small><span class="label label-success">Nueva Oferta</span></p>
                         <p class="card-text">
                             <img src="img/glyphicons/glyphicons-516-shower.png" alt=""> Ducha Propia
                             <br>
@@ -78,7 +79,7 @@
                       <img class="card-img-top img-responsive" src="img/LIBROS-MOCKUP.jpeg" alt="Card image cap">
                       <div class="card-block">
                         <h4 class="card-title">Habitación Doble</h4>
-                        <p class="card-text"><small class="text-muted">S/. 30.00 Soles</small></p>
+                        <p class="card-text"><small class="text-muted">S/. 30.00 Soles </small><span class="label label-success">Nueva Oferta</span></p>
                         <p class="card-text">
                             <img src="img/glyphicons/glyphicons-516-shower.png" alt=""> Ducha Propia
                             <br>
@@ -99,7 +100,7 @@
                       <img class="card-img-top img-responsive" src="img/LIBROS-MOCKUP.jpeg" alt="Card image cap">
                       <div class="card-block">
                         <h4 class="card-title">Habitación Triple</h4>
-                        <p class="card-text"><small class="text-muted">S/. 30.00 Soles</small></p>
+                        <p class="card-text"><small class="text-muted">S/. 30.00 Soles </small><span class="label label-warning">Quedan 2 días</span></p>
                         <p class="card-text">
                             <img src="img/glyphicons/glyphicons-516-shower.png" alt=""> Ducha Propia
                             <br>
