@@ -40,7 +40,7 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top top-nav-collapse" role="navigation" style="border-bottom: solid 5px white;background-color: #9a0d02;">
+    <nav class="navbar navbar-default navbar-fixed-top top-nav-collapse" role="navigation" style="border-bottom: solid 5px white;background-color: #9a0d02; border-color: rgba(154, 13, 2, 0);">
         <div class="container">
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -50,7 +50,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand page-scroll" href="index.php">
-                    <img src="img/logoha.png" alt="Hospedaje America" style='height: 90px; margin-top: -10px'>
+                    <img class='img-logo-ha' src="img/logoha.png" alt="Hospedaje America" style=''>
                 </a>
             </div>
 
@@ -61,9 +61,9 @@
                     <li class="hidden">
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
-                    <li>
+                    <!--li>
                         <a class="page-scroll" href="index.php">Principal</a>
-                    </li>
+                    </li-->
                     <li>
                         <a class="page-scroll" href="servicios.php">Servicios</a>
                     </li>
@@ -87,7 +87,7 @@
                         <a class="page-scroll" href="simulator.php">Simulador</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contactos</a>
+                        <a class="page-scroll" href="contact.php">Contactos</a>
                     </li>
                 </ul>
             </div>

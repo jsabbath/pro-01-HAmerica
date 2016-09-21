@@ -10,7 +10,7 @@
 
 
 <!--carrousel-->
-<section>
+<section style="overflow-x:hidden;overflow-y:hidden">
     <div id="wowslider-container1">
     <div class="ws_images"><ul>
             <li>
@@ -25,10 +25,10 @@
             <li>
                 <img src="img/hotel_room_wallpaper_coll_hd.jpg" alt="deluxe_w_dresser" title="Comodidad" id="wows1_3"/>
             </li>
-        </ul></div>
-        <div class="ws_bullets">
-        </div>
-        <div class="ws_script" style="position:absolute;left:-99%"></div>
+        </ul>
+    </div>
+    <div class="ws_bullets">
+    </div>
     <div class="ws_shadow"></div>
     </div>  
     <script type="text/javascript" src="engine1/wowslider.js"></script>
@@ -51,7 +51,7 @@
             <div class="row">
                 <div class="row" style='margin-bottom: 30px'>
                     
-                    <h1><img src="img/ofertas.png" alt="" style='width:150px; z-index: 1'>AmericROOM</h1>
+                    <h1><!--img src="img/ofertas.png" alt="" style='width:150px; z-index: 1'-->Habitaciones</h1>
                 </div>
                 <div class="col-xs-12 col-ms-6 col-md-6 col-lg-3">
                     <div class="card">
@@ -60,12 +60,12 @@
                         <h4 class="card-title">Habitación Simple</h4>
                         <p class="card-text"><small class="text-muted">S/. 30.00 Soles </small><span class="label label-success">Nueva Oferta</span></p>
                         <p class="card-text">
-                            <img src="img/glyphicons/glyphicons-516-shower.png" alt=""> Ducha Propia
+                            <!--img src="img/glyphicons/glyphicons-516-shower.png" alt=""--> Ducha Propia
                             <br>
-                            <img src="img/glyphicons/glyphicons-496-bed-alt.png" alt="">
-                            Una Cama
+                            <!--img src="img/glyphicons/glyphicons-496-bed-alt.png" alt=""-->
+                            Tres Camas
                             <br>
-                            <img src="img/glyphicons/glyphicons-276-fast-food.png" alt=""> Servicio Habitación
+                            <!--img src="img/glyphicons/glyphicons-276-fast-food.png" alt=""--> Servicio Habitación
                             <br>
                         </p>
                         <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Ver detalles de Habitación Simple">
@@ -81,12 +81,12 @@
                         <h4 class="card-title">Habitación Doble</h4>
                         <p class="card-text"><small class="text-muted">S/. 30.00 Soles </small><span class="label label-success">Nueva Oferta</span></p>
                         <p class="card-text">
-                            <img src="img/glyphicons/glyphicons-516-shower.png" alt=""> Ducha Propia
+                            <!--img src="img/glyphicons/glyphicons-516-shower.png" alt=""--> Ducha Propia
                             <br>
-                            <img src="img/glyphicons/glyphicons-496-bed-alt.png" alt="">
-                            Dos Camas
+                            <!--img src="img/glyphicons/glyphicons-496-bed-alt.png" alt=""-->
+                            Tres Camas
                             <br>
-                            <img src="img/glyphicons/glyphicons-276-fast-food.png" alt=""> Servicio Habitación
+                            <!--img src="img/glyphicons/glyphicons-276-fast-food.png" alt=""--> Servicio Habitación
                             <br>
                         </p>
                         <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Ver detalles de Habitación Doble">
@@ -102,12 +102,12 @@
                         <h4 class="card-title">Habitación Triple</h4>
                         <p class="card-text"><small class="text-muted">S/. 30.00 Soles </small><span class="label label-warning">Quedan 2 días</span></p>
                         <p class="card-text">
-                            <img src="img/glyphicons/glyphicons-516-shower.png" alt=""> Ducha Propia
+                            <!--img src="img/glyphicons/glyphicons-516-shower.png" alt=""--> Ducha Propia
                             <br>
-                            <img src="img/glyphicons/glyphicons-496-bed-alt.png" alt="">
+                            <!--img src="img/glyphicons/glyphicons-496-bed-alt.png" alt=""-->
                             Tres Camas
                             <br>
-                            <img src="img/glyphicons/glyphicons-276-fast-food.png" alt=""> Servicio Habitación
+                            <!--img src="img/glyphicons/glyphicons-276-fast-food.png" alt=""--> Servicio Habitación
                             <br>
                         </p>
                         <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Ver detalles de Habitación Triple">
@@ -123,12 +123,12 @@
                         <h4 class="card-title">Matrimonial</h4>
                         <p class="card-text"><small class="text-muted">S/. 30.00 Soles</small></p>
                         <p class="card-text">
-                            <img src="img/glyphicons/glyphicons-516-shower.png" alt=""> Ducha Propia
+                            <!--img src="img/glyphicons/glyphicons-516-shower.png" alt=""--> Ducha Propia
                             <br>
-                            <img src="img/glyphicons/glyphicons-496-bed-alt.png" alt="">
-                            Cama matrimonial
+                            <!--img src="img/glyphicons/glyphicons-496-bed-alt.png" alt=""-->
+                            Tres Camas
                             <br>
-                            <img src="img/glyphicons/glyphicons-276-fast-food.png" alt=""> Servicio Habitación
+                            <!--img src="img/glyphicons/glyphicons-276-fast-food.png" alt=""--> Servicio Habitación
                             <br>
                         </p>
                         <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Ver detalles de habitacion Matrimonial">
@@ -141,78 +141,55 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="intro-section" style="background-color:#475e88; color:white">
+    <section id="about" class="intro-section" style="background-color:#475e88; color:white; background-image: url('img/winhd.jpg');
+    background-size: cover;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 style='padding-bottom: 50px; height: 100%'>Section</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita perferendis porro aliquam dolorem inventore fuga deleniti corporis quaerat quis vero, recusandae laboriosam qui maiores blanditiis minus corrupti ipsum possimus accusantium.</p>
-                    <p>Sit facere quia ad maxime, illo ut, facilis aliquam cumque accusamus maiores consectetur earum nobis dolorem neque culpa sint? Amet iusto quae modi asperiores architecto ratione illum adipisci repellat aspernatur.</p>
-                    <p>Sunt deserunt nostrum error soluta! Aspernatur, placeat. Tenetur soluta amet, itaque dolor enim ea odit, fugit officiis delectus voluptas suscipit, in similique nam? Quaerat iusto dicta facere, quis porro voluptatem!</p>
+                    <h1 style='padding-bottom: 50px; height: 100%'>Servicios</h1>
+                    <p class="text" style="width: 60%; margin: 0 auto; margin-bottom: 50px">
+                        Hospedaje America cuenta con los siguientes servicios a disposición de nuestra clientela, siempre buscando mejorar nuestros servicios con la finalidad de dar a nuestra clientela el mejor trato posible.
+                    </p>
+                    <div class="col-sm-3" style="color: gray; margin-top: 15px">
+                        <div class="card">
+                          <img class="card-img-top img-responsive" src="img/LIBROS-MOCKUP.jpeg" alt="Card image cap">
+                          <div class="card-block">
+                            <p class="card-text">Internet/WiFi
+                            </p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3" style="color: gray; margin-top: 15px">
+                        <div class="card">
+                          <img class="card-img-top img-responsive" src="http://d243u7pon29hni.cloudfront.net/images/products/tv_led_samsung_48j5200_2_ad_l.jpg" alt="Card image cap">
+                          <div class="card-block">
+                            <p class="card-text">TV/Cable
+                            </p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3" style="color: gray; margin-top: 15px">
+                        <div class="card">
+                          <img class="card-img-top img-responsive" src="img/shower2.JPG" alt="Card image cap">
+                          <div class="card-block">
+                            <p class="card-text">Ducha Caliente
+                            </p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3" style="color: gray; margin-top: 15px">
+                        <div class="card">
+                          <img class="card-img-top img-responsive" src="img/resized-afternoon-tea-panel-1412071221.jpg" alt="Card image cap">
+                          <div class="card-block">
+                            <p class="card-text">Desayuno
+                            </p>
+                          </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services-section" style='padding-top: 90px'>
-        <div class="container">
-            <div class="row" style="padding-bottom: 40px">
-                <div class="col-lg-12">
-                    <h1>Contáctanos</h1>
-                </div>
-            </div>
-            <div class="row">
-                
-                <div class="col-lg-7">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1950.7818793676597!2d-75.20617308731079!3d-12.07350774562882!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x951f2c3eba45f1cb!2sHospedaje+Am%C3%A9rica!5e0!3m2!1ses!2sus!4v1473758343832" width="100%" height="390px" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-                <div class="col-lg-5">
-                   <form style="text-align:left">
-                      <div class="form-group">
-                        <label for="email" ><p>Nombres</p></label>
-                        <input type="email" class="form-control" id="email" placeholder="Ingrese tus Nombres">
-                      </div>
-                      <div class="form-group">
-                        <label for="pwd">Correo</label>
-                        <input type="password" class="form-control" id="pwd" placeholder="Ingrese tu email">
-                      </div>
-                      <div class="form-group">
-                         <label for="comment">Mensaje</label>
-                         <textarea class="form-control" rows="5" id="comment" placeholder="Ingresa tu mensaje a enviar"></textarea>
-                      </div>
-                      <button type="submit" class="btn button-blue">Enviar mensaje</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Map Section Complete -->
-    <!--section id="contact" class="" style='padding-top: 0px;'>
-        <section><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1950.7818793676597!2d-75.20617308731079!3d-12.07350774562882!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x951f2c3eba45f1cb!2sHospedaje+Am%C3%A9rica!5e0!3m2!1ses!2sus!4v1473758343832" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe></section>
-    </section-->
-
-    <style>
-        @media screen (max-width:610px) and (min-width: 0px;){
-           *{overflow-x:hidden;}
-        }
-        /*aditionals*/
-        .button-blue{
-            color: #2196F3;
-            background-color: white;
-            border: solid 2px #2196F3;
-        }
-        .button-blue:hover{
-            color: white;
-            background-color: #2196F3;
-            border: solid 2px #2196F3;
-        }
-        .button-blue:pressed{
-            color: white;
-            background-color: #2196F3;
-            border: solid 2px #2196F3;   
-        }
-    </style>
 
 <?php include('footer.php'); ?>
