@@ -44,9 +44,11 @@
 
 
 <style>
-    *{
-       /* transition: .5s;*/
-    }
+  #habitacionmatrimonial{
+    background-image: url('http://wallpapercave.com/wp/uUO50NS.jpg');
+    background-size: cover;
+  }
+married
     .row{
        /* background: white;
         margin-top: 50px;*/
@@ -82,11 +84,30 @@
         0% {margin-top: -50px;}
         100%{margin-top: -1px;}
     }
+    .card:hover{
+      -webkit-box-shadow: 4px 6px 19px 1px rgba(189,189,189,1);
+      -moz-box-shadow: 4px 6px 19px 1px rgba(189,189,189,1);
+      box-shadow: 4px 6px 19px 1px rgba(189,189,189,1);
+      color:black;
+      cursor: pointer;
+      transition: all .3s;
+    }
     .card-img-top{
         width: 100%;
         height: 100%;
         min-height: 200px;
         max-height: 200px;
+        -webkit-filter: grayscale(40%);
+
+        -webkit-transition: all 1s ease;
+         -moz-transition: all 1s ease;
+           -o-transition: all 1s ease;
+          -ms-transition: all 1s ease;
+              transition: all 1s ease;
+    }
+    .card-img-top:hover{
+      transition: all .3s;
+      -webkit-filter: grayscale(0%);
     }
     .intro-section{
        /* background-color: #e9ebee;*/
@@ -95,14 +116,16 @@
         unicode-bidi: embed;
         font-family: helvetica, arial, sans-serif;
     }
-    
+
     @media screen and (min-width: 381px){
         .img-logo-ha{
-            height: 90px; 
+            height: 90px;
             margin-top: -10px;
             transition: all .3s;
         }
     }
+
+
     @media screen and (max-width: 380px){
         .card{
              margin: 10 5 10 5;
@@ -139,6 +162,34 @@
     .button-blue:pressed{
         color: white;
         background-color: #2196F3;
-        border: solid 2px #2196F3;   
+        border: solid 2px #2196F3;
+    }
+
+
+    h1{
+        font-family: 'Poiret One', cursive;
+    }
+    p{
+      font-family: 'Cormorant Upright', serif;
+      font-size: 20px;
+    }
+    .underline-tittle{
+        border-bottom: solid 1px rgb(55, 58, 60);
+        width: 40%;
+    }
+    pin{
+        font-family: 'Cormorant Upright', serif;
+        font-size: 29px;
+    }
+    .backgrounddegrade{
+         background: -webkit-linear-gradient(#fff, #e9ebee);
+         background: -o-linear-gradient(#fff, #e9ebee);
+         background: linear-gradient(#fff, #e9ebee);
+    }
+    .backgroundwhite{
+        background-color:#fff;
+    }
+    .navbar-nav>li>.dropdown-menu{
+        border-radius: 0px 3px 8px 8px;
     }
 </style>

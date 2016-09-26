@@ -1,6 +1,7 @@
-<?php include_once('header.php'); ?>
-<?php  
+<?php
+	include_once('header.php');
 	//habitaciones.php
+	$contenido = 'Este es la descripcion de cada una de estas habitaciones';
 ?>
 
 <section>
@@ -48,21 +49,22 @@
 </section>
 
 <!--Habitacion simple list-->
-<section class="" style="margin-top: 50px;">
+<section class="backgroundwhite" style="margin:50 0 0 0; padding-top: 50px" id="habitacionsimple">
 	<div class="container">
 		<div class="row">
 			<div class="page-header tittle-ha">
-	  			<h1 style="text-align:center;">Habitación Simple</h1>
+	  			<h1 class="titlediv" style="text-align:center;">Habitación Simple</h1>
+	  			<div class="underline-tittle"></div>
 			</div>
 			<div class="card-text text-information" style="padding-bottom: 70px">
-				<p>Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.</p>
+				<p><pin>L</pin>as habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.</p>
 				<br>
 				<p><img class="btn-down-nmtn" src="img/down2.png" alt="" width="80px"></p>
 			</div>
 		</div>
 	</div>
 </section>
-<section style="padding: 15px">
+<section class="backgrounddegrade" style="margin:0 0 50 0; padding: 15px;">
 	<div class="container">
 	  <div class="card-deck-wrapper">
 		  <div class="card-deck">
@@ -70,7 +72,9 @@
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam cumque sunt! Nihil deserunt beatae explicabo quibusdam voluptatem dolores quaerat veniam vel, cumque reprehenderit. Iste similique nisi voluptatibus ipsa assumenda!</p>
+		        <p class="card-text" style="text-align: left">
+		        	<?php echo $contenido; ?>
+		        </p>
 		        <p class="card-text">
 	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
 		        </p>
@@ -80,7 +84,9 @@
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam cumque sunt! Nihil deserunt beatae explicabo quibusdam voluptatem dolores quaerat veniam vel, cumque reprehenderit. Iste similique nisi voluptatibus ipsa assumenda!</p>
+		        <p class="card-text" style="text-align: left">
+		        	<?php echo $contenido; ?>
+		        </p>
 		        <p class="card-text">
 	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
 		        </p>
@@ -90,7 +96,9 @@
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam cumque sunt! Nihil deserunt beatae explicabo quibusdam voluptatem dolores quaerat veniam vel, cumque reprehenderit. Iste similique nisi voluptatibus ipsa assumenda!</p>
+		        <p class="card-text" style="text-align: left">
+		        	<?php echo $contenido; ?>
+		        </p>
 		        <p class="card-text">
 	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
 		        </p>
@@ -103,11 +111,12 @@
 <!--END Habitacion simple list-->
 
 <!--Habitacion doble list-->
-<section class="" style="margin-top:50px; background-color:#e9ebee">
+<section class="backgroundwhite" style="margin:50 0 0 0;" id="habitaciondoble">
 	<div class="container">
 		<div class="row" style="margin-top:70px;">
 			<div class="page-header tittle-ha">
 	  			<h1 style="text-align:center;">Habitación Doble</h1>
+	  			<div class="underline-tittle"></div>
 			</div>
 			<div class="card-text text-information" style="padding-bottom: 70px">
 				<p>Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.</p>
@@ -117,7 +126,7 @@
 		</div>
 	</div>
 </section>
-<section style="padding: 15px; background-color:#e9ebee">
+<section class="backgrounddegrade" style="margin:0 0 50 0; padding: 15px;">
 	<div class="container">
 	  <div class="card-deck-wrapper">
 		  <div class="card-deck">
@@ -125,7 +134,9 @@
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam cumque sunt! Nihil deserunt beatae explicabo quibusdam voluptatem dolores quaerat veniam vel, cumque reprehenderit. Iste similique nisi voluptatibus ipsa assumenda!</p>
+		        <p class="card-text" style="text-align: left">
+		        	<?php echo $contenido; ?>
+		        </p>
 		        <p class="card-text">
 	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
 		        </p>
@@ -135,7 +146,9 @@
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam cumque sunt! Nihil deserunt beatae explicabo quibusdam voluptatem dolores quaerat veniam vel, cumque reprehenderit. Iste similique nisi voluptatibus ipsa assumenda!</p>
+		        <p class="card-text" style="text-align: left">
+		        	<?php echo $contenido; ?>
+		        </p>
 		        <p class="card-text">
 	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
 		        </p>
@@ -145,7 +158,9 @@
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam cumque sunt! Nihil deserunt beatae explicabo quibusdam voluptatem dolores quaerat veniam vel, cumque reprehenderit. Iste similique nisi voluptatibus ipsa assumenda!</p>
+		        <p class="card-text" style="text-align: left">
+		        	<?php echo $contenido; ?>
+		        </p>
 		        <p class="card-text">
 	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
 		        </p>
@@ -158,11 +173,12 @@
 <!--END Habitacion doble list-->
 
 <!--Habitacion triple list-->
-<section class="" style="margin-top: 50px">
+<section class="backgroundwhite" style="margin:50 0 0 0;" id="habitaciontriple">
 	<div class="container">
-		<div class="row">
+		<div class="row" style="margin-top:70px;">
 			<div class="page-header tittle-ha">
 	  			<h1 style="text-align:center;">Habitación Triple</h1>
+	  			<div class="underline-tittle" style=""></div>
 			</div>
 			<div class="card-text text-information" style="padding-bottom: 70px">
 				<p>Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.</p>
@@ -172,7 +188,7 @@
 		</div>
 	</div>
 </section>
-<section style="padding: 15px">
+<section class="backgrounddegrade" style="margin:0 0 50 0; padding: 15px;">
 	<div class="container">
 	  <div class="card-deck-wrapper">
 		  <div class="card-deck">
@@ -180,7 +196,9 @@
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam cumque sunt! Nihil deserunt beatae explicabo quibusdam voluptatem dolores quaerat veniam vel, cumque reprehenderit. Iste similique nisi voluptatibus ipsa assumenda!</p>
+		        <p class="card-text" style="text-align: left">
+		        	<?php echo $contenido; ?>
+		        </p>
 		        <p class="card-text">
 	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
 		        </p>
@@ -190,7 +208,9 @@
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam cumque sunt! Nihil deserunt beatae explicabo quibusdam voluptatem dolores quaerat veniam vel, cumque reprehenderit. Iste similique nisi voluptatibus ipsa assumenda!</p>
+		        <p class="card-text" style="text-align: left">
+		        	<?php echo $contenido; ?>
+		        </p>
 		        <p class="card-text">
 	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
 		        </p>
@@ -200,7 +220,9 @@
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam cumque sunt! Nihil deserunt beatae explicabo quibusdam voluptatem dolores quaerat veniam vel, cumque reprehenderit. Iste similique nisi voluptatibus ipsa assumenda!</p>
+		        <p class="card-text" style="text-align: left">
+		        	<?php echo $contenido; ?>
+		        </p>
 		        <p class="card-text">
 	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
 		        </p>
@@ -213,11 +235,12 @@
 <!--END Habitacion triple list-->
 
 <!--Habitacion Matrimonial list-->
-<section class="" style="margin-top: 50px">
+<section class="backgroundwhite" style="margin:50 0 0 0;" id="habitacionmatrimonial">
 	<div class="container">
-		<div class="row">
+		<div class="row" style="margin-top:70px;">
 			<div class="page-header tittle-ha">
 	  			<h1 style="text-align:center;">Habitación Matrimonial</h1>
+	  			<div class="underline-tittle"></div>
 			</div>
 			<div class="card-text text-information" style="padding-bottom: 70px">
 				<p>Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.</p>
@@ -227,7 +250,7 @@
 		</div>
 	</div>
 </section>
-<section style="padding: 15px">
+<section class="backgrounddegrade" style="margin:0 0 50 0; padding: 15px;">
 	<div class="container">
 	  <div class="card-deck-wrapper">
 		  <div class="card-deck">
@@ -235,7 +258,9 @@
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam cumque sunt! Nihil deserunt beatae explicabo quibusdam voluptatem dolores quaerat veniam vel, cumque reprehenderit. Iste similique nisi voluptatibus ipsa assumenda!</p>
+		        <p class="card-text" style="text-align: left">
+		        	<?php echo $contenido; ?>
+		        </p>
 		        <p class="card-text">
 	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
 		        </p>
@@ -245,7 +270,7 @@
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam cumque sunt! Nihil deserunt beatae explicabo quibusdam voluptatem dolores quaerat veniam vel, cumque reprehenderit. Iste similique nisi voluptatibus ipsa assumenda!</p>
+		        <p class="card-text" style="text-align: left"><?php echo $contenido; ?></p>
 		        <p class="card-text">
 	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
 		        </p>
@@ -255,7 +280,9 @@
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam cumque sunt! Nihil deserunt beatae explicabo quibusdam voluptatem dolores quaerat veniam vel, cumque reprehenderit. Iste similique nisi voluptatibus ipsa assumenda!</p>
+		        <p class="card-text" style="text-align: left">
+		        	<?php echo $contenido; ?>
+		        </p>
 		        <p class="card-text">
 	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
 		        </p>

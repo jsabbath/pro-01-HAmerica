@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
     <meta charset="utf-8">
@@ -10,6 +9,13 @@
     <meta name="author" content="">
     <link rel="icon" type="image/png" href="img/logoha.png" />
     <meta name="viewport" content="width=device-width, user-scalable=no">
+
+    <!--Google Fonts-->
+    <style>
+      @import 'https://fonts.googleapis.com/css?family=Poiret+One';
+      @import 'https://fonts.googleapis.com/css?family=Cormorant+Upright';
+    </style>
+    <!--END Google Fonts-->
 
     <title>Hospedaje América</title>
 
@@ -74,10 +80,10 @@
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Habitaciones
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Habitación simple</a></li>
-                          <li><a href="#">Habitación doble</a></li> 
-                          <li><a href="#">Habitación triple</a></li> 
-                          <li><a href="#">Habitación matrimonial</a></li>
+                          <li><a href="habitaciones.php#habitacionsimple">Habitación simple</a></li>
+                          <li><a href="habitaciones.php#habitaciondoble">Habitación doble</a></li>
+                          <li><a href="habitaciones.php#habitaciontriple">Habitación triple</a></li>
+                          <li><a href="habitaciones.php#habitacionmatrimonial">Habitación matrimonial</a></li>
                         </ul>
                     </li>
                     <li>
