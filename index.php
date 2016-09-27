@@ -2,12 +2,10 @@
     include_once('header.php');
     $buttonText = 'Ver detalles';
 ?>
-
     <section class="hidden" style="margin-top: 100px;
     text-align: center;">
         <img src="img/HAlogo2.png" alt="" style="width: 300px;">
     </section>
-
 
     <!--carrousel-->
     <section style="overflow-x:hidden;overflow-y:hidden">
@@ -57,7 +55,7 @@
     <section class="backgrounddegrade" style="margin:0 0 50 0; padding: 15px; padding-bottom: 50px">
         <div class="container">
             <div class="row">
-                                <div class="col-xs-12 col-ms-6 col-md-6 col-lg-3">
+                 <div class="col-xs-12 col-ms-6 col-md-6 col-lg-3">
                     <div class="card">
                       <img class="card-img-top img-responsive" src="img/LIBROS-MOCKUP.jpeg" alt="Card image cap">
                       <div class="card-block">
@@ -203,6 +201,11 @@
                           </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-lg-12" style="margin-top:50px;">
+                  <a href="servicios.php" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Ver más servicios">
+                      Saber Más
+                  </a>
                 </div>
             </div>
         </div>

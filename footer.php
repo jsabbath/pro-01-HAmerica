@@ -53,6 +53,10 @@ married
        /* background: white;
         margin-top: 50px;*/
     }
+    .card-text{
+      font-family: verdana;
+      font-size: 15px
+    }
     .carousel .item.left img{
         width: 100% !important;
     }
