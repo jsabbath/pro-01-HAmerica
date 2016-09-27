@@ -34,18 +34,24 @@
     </section>
     <!--carrousel-->
 
-
-
     <!--Habitacion simple list-->
     <section class="backgroundwhite" style="margin:50 0 0 0; padding-top: 50px">
         <div class="container">
             <div class="row">
                 <div class="page-header tittle-ha">
-                    <h1 class="titlediv" style="text-align:center;">Nuestras Habitaciones</h1>
+                    <h1 class="titlediv" style="text-align:center;">
+                      <strong>
+                        Nuestras Habitaciones
+                      </strong>
+                    </h1>
                     <div class="underline-tittle"></div>
                 </div>
                 <div class="card-text text-information" style="padding-bottom: 70px">
-                    <p><pin>L</pin>as habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.</p>
+                    <p>
+                      <strong>
+                        Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.
+                      </strong>
+                    </p>
                     <br>
                     <p><img class="btn-down-nmtn" src="http://goodjudgment.com/bin/arrow-down-white.png" alt="" width="80px"></p>
                 </div>
@@ -144,17 +150,23 @@
     </section>
     <!--END Habitacion simple list-->
 
-    <!-- About Section -->
+    <!-- services Section -->
     <section class="backgroundwhite" style="margin:50 0 0 0; padding-top: 50px;background-color:#475e88; color:white; background-image: url('img/winhd.jpg');
     background-size: cover;">
         <div class="container">
             <div class="row">
                 <div class="page-header tittle-ha">
-                    <h1 class="titlediv" style="text-align:center;">Nuestros Servicios</h1>
+                    <h1 class="titlediv" style="text-align:center; color:white">
+                      <strong>Nuestros Servicios</strong>
+                    </h1>
                     <div class="" style="border-bottom: solid 1px white; width:40%"></div>
                 </div>
-                <div class="card-text text-information" style="padding-bottom: 70px">
-                    <p>Hospedaje America cuenta con los siguientes servicios a disposición de nuestra clientela, siempre buscando mejorar nuestros servicios con la finalidad de dar a nuestra clientela el mejor trato posible.</p>
+                <div class="card-text text-information" style="padding-bottom: 70px;">
+                    <p style=" color:white">
+                      <strong>
+                        Hospedaje America cuenta con los siguientes servicios a disposición de nuestra clientela, siempre buscando mejorar nuestros servicios con la finalidad de dar a nuestra clientela el mejor trato posible.
+                      </strong>
+                    </p>
                     <br>
                     <p><img class="btn-down-nmtn" src="https://james-lawrence-pkyt.squarespace.com/s/arrow-down2x.png" alt="" width="80px"></p>
                 </div>

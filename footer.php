@@ -19,17 +19,14 @@
     <script>
         // Activate Carousel
         $("#myCarousel").carousel();
-
         // Enable Carousel Indicators
         $(".item").click(function(){
             $("#myCarousel").carousel(1);
         });
-
         // Enable Carousel Controls
         $(".left").click(function(){
             $("#myCarousel").carousel("prev");
         });
-
         $('#myTooltip').on('hidden.bs.tooltip', function () {
           // do something…
         })
@@ -37,25 +34,22 @@
           $('[data-toggle="tooltip"]').tooltip()
         })
     </script>
-
 </body>
-
 </html>
-
 
 <style>
   #habitacionmatrimonial{
-    background-image: url('http://wallpapercave.com/wp/uUO50NS.jpg');
+    background-image: url('http://wallpapercave.com/wp/uUO50NS.jpg'), linear-gradient(red,yellow);
     background-size: cover;
   }
-married
     .row{
        /* background: white;
         margin-top: 50px;*/
     }
     .card-text{
       font-family: verdana;
-      font-size: 15px
+      /*border-bottom: solid 2px white;*/
+      font-size: 15px;
     }
     .carousel .item.left img{
         width: 100% !important;
@@ -67,7 +61,6 @@ married
         -ms-filter: blur(5px);
         filter: blur(5px);
     }
-
     .tittle-ha{
         margin-top: 50px
     }
@@ -101,7 +94,7 @@ married
         height: 100%;
         min-height: 200px;
         max-height: 200px;
-        -webkit-filter: grayscale(40%);
+        -webkit-filter: grayscale(20%);
 
         -webkit-transition: all 1s ease;
          -moz-transition: all 1s ease;
@@ -120,7 +113,15 @@ married
         unicode-bidi: embed;
         font-family: helvetica, arial, sans-serif;
     }
+    *{
+        margin: 0 auto;
+        text-align: center;
+    }
 
+    /*Media querys*/
+    /*@media screen (max-width:610px) and (min-width: 0px;){
+       *{overflow-x:hidden;}
+    }*/
     @media screen and (min-width: 381px){
         .img-logo-ha{
             height: 90px;
@@ -128,8 +129,6 @@ married
             transition: all .3s;
         }
     }
-
-
     @media screen and (max-width: 380px){
         .card{
              margin: 10 5 10 5;
@@ -144,14 +143,35 @@ married
             margin-left: 9%;
         }
     }
+    @media screen and (max-width:995px){
+      #slider{
+        visibility: hidden;
+        height: 20px;
+      }
+      #headerinminix{
+        visibility: visible;
+        /*height: 100%;*/
+        padding-top: 90px;
+        background-color:#475e88;
+        color:white;
+        background-image: url('img/winhd.jpg');
+        background-size: cover;
+      }
+    }
+    @media screen and (min-width:996px){
+        #slider{
+          margin: 0 auto;
+          visibility: visible;
+          height: auto;
+          margin-top: 70px;
+        }
+        #headerinminix{
+          visibility: hidden;
+          height: 0px;
+          padding-top: 90px;
+        }
+    }
 
-    *{
-        margin: 0 auto;
-        text-align: center;
-    }
-    @media screen (max-width:610px) and (min-width: 0px;){
-       *{overflow-x:hidden;}
-    }
     /*aditionals*/
     .button-blue{
         color: #2196F3;
@@ -168,14 +188,16 @@ married
         background-color: #2196F3;
         border: solid 2px #2196F3;
     }
-
-
     h1{
         font-family: 'Poiret One', cursive;
+        font-weight: bolt;
+        color:rgba(0, 0, 0, 0.69);
     }
     p{
       font-family: 'Cormorant Upright', serif;
-      font-size: 20px;
+      font-size: 23px;
+      font-weight: bolt;
+      color:rgba(0, 0, 0, 0.69);
     }
     .underline-tittle{
         border-bottom: solid 1px rgb(55, 58, 60);
@@ -184,6 +206,17 @@ married
     pin{
         font-family: 'Cormorant Upright', serif;
         font-size: 29px;
+    }
+    /**/
+    .acard, .acard:hover{
+      text-decoration: none;
+      color: gray;
+    }
+    .acard{
+      border-bottom: solid 3px black;
+    }
+    .acard:hover{
+      background-color: green;
     }
     .backgrounddegrade{
          background: -webkit-linear-gradient(#fff, #e9ebee);

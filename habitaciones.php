@@ -6,12 +6,6 @@
 
 <section>
 	<div id="carousel-example" class="carousel slide" data-ride="carousel">
-	  <!--ol class="carousel-indicators">
-	    <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-	    <li data-target="#carousel-example" data-slide-to="1"></li>
-	    <li data-target="#carousel-example" data-slide-to="2"></li>
-	  </ol-->
-
 	  <div class="carousel-inner">
 	    <div class="item active">
 	      <a href="#"><img src="http://www.wentbridgehouse.co.uk/uploads/images/resized-accommodation-banner-superior-room-1409588620.jpg" /></a>
@@ -53,11 +47,15 @@
 	<div class="container">
 		<div class="row">
 			<div class="page-header tittle-ha">
-	  			<h1 class="titlediv" style="text-align:center;">Habitación Simple</h1>
+	  			<h1 class="titlediv" style="text-align:center;"><strong>Habitación Simple</strong></h1>
 	  			<div class="underline-tittle"></div>
 			</div>
 			<div class="card-text text-information" style="padding-bottom: 70px">
-				<p><pin>L</pin>as habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.</p>
+				<p>
+					<strong>
+						Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.
+					</strong>
+				</p>
 				<br>
 				<p><img class="btn-down-nmtn" src="img/down2.png" alt="" width="80px"></p>
 			</div>
@@ -115,11 +113,15 @@
 	<div class="container">
 		<div class="row" style="margin-top:70px;">
 			<div class="page-header tittle-ha">
-	  			<h1 style="text-align:center;">Habitación Doble</h1>
+	  			<h1 style="text-align:center;"><strong>Habitación Doble</strong></h1>
 	  			<div class="underline-tittle"></div>
 			</div>
 			<div class="card-text text-information" style="padding-bottom: 70px">
-				<p>Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.</p>
+				<p>
+					<strong>
+						Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.
+					</strong>
+				</p>
 				<br>
 				<p><img class="btn-down-nmtn" src="img/down2.png" alt="" width="80px"></p>
 			</div>
@@ -177,11 +179,15 @@
 	<div class="container">
 		<div class="row" style="margin-top:70px;">
 			<div class="page-header tittle-ha">
-	  			<h1 style="text-align:center;">Habitación Triple</h1>
+	  			<h1 style="text-align:center;"><strong>Habitación Triple</strong></h1>
 	  			<div class="underline-tittle" style=""></div>
 			</div>
 			<div class="card-text text-information" style="padding-bottom: 70px">
-				<p>Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.</p>
+				<p>
+					<strong>
+							Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.
+					</strong>
+				</p>
 				<br>
 				<p><img class="btn-down-nmtn" src="img/down2.png" alt="" width="80px"></p>
 			</div>
@@ -239,11 +245,17 @@
 	<div class="container">
 		<div class="row" style="margin-top:70px;">
 			<div class="page-header tittle-ha">
-	  			<h1 style="text-align:center;">Habitación Matrimonial</h1>
+	  			<h1 style="text-align:center;">
+						<strong>Habitación Matrimonial</strong>
+					</h1>
 	  			<div class="underline-tittle"></div>
 			</div>
 			<div class="card-text text-information" style="padding-bottom: 70px">
-				<p>Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.</p>
+				<p>
+					<strong>
+						Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.
+					</strong>
+				</p>
 				<br>
 				<p><img class="btn-down-nmtn" src="img/down2.png" alt="" width="80px"></p>
 			</div>
