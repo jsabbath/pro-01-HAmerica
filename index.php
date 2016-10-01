@@ -47,10 +47,10 @@
                     <div class="underline-tittle"></div>
                 </div>
                 <div class="card-text text-information" style="padding-bottom: 70px">
-                    <p>
-                      <strong>
+                    <p class="text-aside">
+                      <!--strong-->
                         Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.
-                      </strong>
+                      <!--/strong-->
                     </p>
                     <br>
                     <p><img class="btn-down-nmtn" src="http://goodjudgment.com/bin/arrow-down-white.png" alt="" width="80px"></p>
@@ -61,7 +61,7 @@
     <section class="backgrounddegrade" style="margin:0 0 50 0; padding: 15px; padding-bottom: 50px">
         <div class="container">
             <div class="row">
-                 <div class="col-xs-12 col-ms-6 col-md-6 col-lg-3">
+                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div class="card">
                       <img class="card-img-top img-responsive" src="img/LIBROS-MOCKUP.jpeg" alt="Card image cap">
                       <div class="card-block">
@@ -82,7 +82,7 @@
                       </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-ms-6 col-md-6 col-lg-3">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div class="card">
                       <img class="card-img-top img-responsive" src="img/LIBROS-MOCKUP.jpeg" alt="Card image cap">
                       <div class="card-block">
@@ -103,7 +103,7 @@
                       </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-ms-6 col-md-6 col-lg-3">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div class="card">
                       <img class="card-img-top img-responsive" src="img/LIBROS-MOCKUP.jpeg" alt="Card image cap">
                       <div class="card-block">
@@ -124,7 +124,7 @@
                       </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-ms-6 col-md-6 col-lg-3">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div class="card">
                       <img class="card-img-top img-responsive" src="img/LIBROS-MOCKUP.jpeg" alt="Card image cap">
                       <div class="card-block">
@@ -162,10 +162,10 @@
                     <div class="" style="border-bottom: solid 1px white; width:40%"></div>
                 </div>
                 <div class="card-text text-information" style="padding-bottom: 70px;">
-                    <p style=" color:white">
-                      <strong>
+                    <p style=" color:white" class="text-aside">
+                      <!--strong-->
                         Hospedaje America cuenta con los siguientes servicios a disposición de nuestra clientela, siempre buscando mejorar nuestros servicios con la finalidad de dar a nuestra clientela el mejor trato posible.
-                      </strong>
+                      <!--/strong-->
                     </p>
                     <br>
                     <p><img class="btn-down-nmtn" src="https://james-lawrence-pkyt.squarespace.com/s/arrow-down2x.png" alt="" width="80px"></p>
@@ -177,7 +177,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="col-sm-3" style="color: gray; margin-top: 15px">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3" style="color: gray; margin-top: 15px">
                         <div class="card">
                           <img class="card-img-top img-responsive" src="img/LIBROS-MOCKUP.jpeg" alt="Card image cap">
                           <div class="card-block">
@@ -186,7 +186,7 @@
                           </div>
                         </div>
                     </div>
-                    <div class="col-sm-3" style="color: gray; margin-top: 15px">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3" style="color: gray; margin-top: 15px">
                         <div class="card">
                           <img class="card-img-top img-responsive" src="http://d243u7pon29hni.cloudfront.net/images/products/tv_led_samsung_48j5200_2_ad_l.jpg" alt="Card image cap">
                           <div class="card-block">
@@ -195,7 +195,7 @@
                           </div>
                         </div>
                     </div>
-                    <div class="col-sm-3" style="color: gray; margin-top: 15px">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3" style="color: gray; margin-top: 15px">
                         <div class="card">
                           <img class="card-img-top img-responsive" src="img/shower2.JPG" alt="Card image cap">
                           <div class="card-block">
@@ -204,7 +204,7 @@
                           </div>
                         </div>
                     </div>
-                    <div class="col-sm-3" style="color: gray; margin-top: 15px">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3" style="color: gray; margin-top: 15px">
                         <div class="card">
                           <img class="card-img-top img-responsive" src="img/resized-afternoon-tea-panel-1412071221.jpg" alt="Card image cap">
                           <div class="card-block">

@@ -16,9 +16,9 @@
 					</h1>
 	  			<p class="" style="border-bottom: solid 1px white; width:40%; text-align:center; margin: 0 auto"></p>
 	        <p style="color:white">
-						<strong>
+						<!--strong-->
 							Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.
-						</strong>
+						<!--/strong-->
 					</p>
           <br>
   				<p><img class="btn-down-nmtn" src="https://james-lawrence-pkyt.squarespace.com/s/arrow-down2x.png" alt="" width="80px"></p>
@@ -36,7 +36,7 @@
 					</h1>
 	  			<p class="" style="border-bottom: solid 1px white; width:40%; text-align:center; margin: 0 auto"></p>
 	        <p style=" color:white">
-						<strong>Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.</strong>
+						<!--strong-->Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.<!--/strong-->
 					</p>
           <br>
   				<p><img class="btn-down-nmtn" src="https://james-lawrence-pkyt.squarespace.com/s/arrow-down2x.png" alt="" width="80px"></p>
@@ -53,9 +53,9 @@
 	  			<p class="" style="border-bottom: solid 1px white; width:40%; text-align:center; margin: 0 auto">
 	  			</p>
 	        <p style="color:white">
-						<strong>
+						<!--strong-->
 							Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.
-						</strong>
+						<!--/strong-->
 					</p>
           <br>
   				<p><img class="btn-down-nmtn" src="https://james-lawrence-pkyt.squarespace.com/s/arrow-down2x.png" alt="" width="80px"></p>
@@ -86,9 +86,9 @@
 						</div>
 						<div class="card-text text-information" style="padding-bottom: 70px">
 								<p style="color:white">
-									<strong>
+									<!--strong-->
 										Hospedaje America cuenta con los siguientes servicios a disposición de nuestra clientela, siempre buscando mejorar nuestros servicios con la finalidad de dar a nuestra clientela el mejor trato posible.
-									</strong>
+									<!--/strong-->
 								</p>
 								<br>
 								<p><img class="btn-down-nmtn" src="https://james-lawrence-pkyt.squarespace.com/s/arrow-down2x.png" alt="" width="80px"></p>

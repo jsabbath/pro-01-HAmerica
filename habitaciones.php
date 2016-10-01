@@ -51,10 +51,10 @@
 	  			<div class="underline-tittle"></div>
 			</div>
 			<div class="card-text text-information" style="padding-bottom: 70px">
-				<p>
-					<strong>
+				<p class="text-aside">
+					<!--strong-->
 						Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.
-					</strong>
+					<!--/strong-->
 				</p>
 				<br>
 				<p><img class="btn-down-nmtn" src="img/down2.png" alt="" width="80px"></p>
@@ -65,8 +65,23 @@
 <section class="backgrounddegrade" style="margin:0 0 50 0; padding: 15px;">
 	<div class="container">
 	  <div class="card-deck-wrapper">
-		  <div class="card-deck">
-		    <div class="card">
+		  <div class="col-xl-12">
+		    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+					<div class="card">
+			      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
+			      <div class="card-block">
+			        <h4 class="card-title">Simple</h4>
+			        <p class="card-text" style="text-align: left">
+			        	<?php echo $contenido; ?>
+			        </p>
+			        <p class="card-text">
+		                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
+			        </p>
+			      </div>
+			    </div>
+		    </div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+		    	<div class="card">
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
@@ -78,7 +93,9 @@
 		        </p>
 		      </div>
 		    </div>
-		    <div class="card">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+		    	<div class="card">
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
@@ -90,7 +107,9 @@
 		        </p>
 		      </div>
 		    </div>
-		    <div class="card">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+		    	<div class="card">
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
@@ -98,10 +117,11 @@
 		        	<?php echo $contenido; ?>
 		        </p>
 		        <p class="card-text">
-	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
+	              <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
 		        </p>
 		      </div>
 		    </div>
+				</div>
 		  </div>
 	  </div>
 	</div>
@@ -117,10 +137,10 @@
 	  			<div class="underline-tittle"></div>
 			</div>
 			<div class="card-text text-information" style="padding-bottom: 70px">
-				<p>
-					<strong>
+				<p class="text-aside">
+					<!--strong-->
 						Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.
-					</strong>
+					<!--/strong-->
 				</p>
 				<br>
 				<p><img class="btn-down-nmtn" src="img/down2.png" alt="" width="80px"></p>
@@ -131,8 +151,23 @@
 <section class="backgrounddegrade" style="margin:0 0 50 0; padding: 15px;">
 	<div class="container">
 	  <div class="card-deck-wrapper">
-		  <div class="card-deck">
-		    <div class="card">
+			<div class="col-xl-12">
+		    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+					<div class="card">
+			      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
+			      <div class="card-block">
+			        <h4 class="card-title">Simple</h4>
+			        <p class="card-text" style="text-align: left">
+			        	<?php echo $contenido; ?>
+			        </p>
+			        <p class="card-text">
+		                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
+			        </p>
+			      </div>
+			    </div>
+		    </div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+		    	<div class="card">
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
@@ -144,7 +179,9 @@
 		        </p>
 		      </div>
 		    </div>
-		    <div class="card">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+		    	<div class="card">
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
@@ -156,7 +193,9 @@
 		        </p>
 		      </div>
 		    </div>
-		    <div class="card">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+		    	<div class="card">
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
@@ -164,10 +203,11 @@
 		        	<?php echo $contenido; ?>
 		        </p>
 		        <p class="card-text">
-	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
+	              <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
 		        </p>
 		      </div>
 		    </div>
+				</div>
 		  </div>
 	  </div>
 	</div>
@@ -183,10 +223,10 @@
 	  			<div class="underline-tittle" style=""></div>
 			</div>
 			<div class="card-text text-information" style="padding-bottom: 70px">
-				<p>
-					<strong>
+				<p class="text-aside">
+					<!--strong-->
 							Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.
-					</strong>
+					<!--/strong-->
 				</p>
 				<br>
 				<p><img class="btn-down-nmtn" src="img/down2.png" alt="" width="80px"></p>
@@ -197,8 +237,23 @@
 <section class="backgrounddegrade" style="margin:0 0 50 0; padding: 15px;">
 	<div class="container">
 	  <div class="card-deck-wrapper">
-		  <div class="card-deck">
-		    <div class="card">
+			<div class="col-xl-12">
+		    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+					<div class="card">
+			      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
+			      <div class="card-block">
+			        <h4 class="card-title">Simple</h4>
+			        <p class="card-text" style="text-align: left">
+			        	<?php echo $contenido; ?>
+			        </p>
+			        <p class="card-text">
+		                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
+			        </p>
+			      </div>
+			    </div>
+		    </div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+		    	<div class="card">
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
@@ -210,7 +265,9 @@
 		        </p>
 		      </div>
 		    </div>
-		    <div class="card">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+		    	<div class="card">
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
@@ -222,7 +279,9 @@
 		        </p>
 		      </div>
 		    </div>
-		    <div class="card">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+		    	<div class="card">
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
@@ -230,10 +289,11 @@
 		        	<?php echo $contenido; ?>
 		        </p>
 		        <p class="card-text">
-	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
+	              <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
 		        </p>
 		      </div>
 		    </div>
+				</div>
 		  </div>
 	  </div>
 	</div>
@@ -251,10 +311,10 @@
 	  			<div class="underline-tittle"></div>
 			</div>
 			<div class="card-text text-information" style="padding-bottom: 70px">
-				<p>
-					<strong>
+				<p class="text-aside">
+					<!--strong-->
 						Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.
-					</strong>
+					<!--/strong-->
 				</p>
 				<br>
 				<p><img class="btn-down-nmtn" src="img/down2.png" alt="" width="80px"></p>
@@ -265,8 +325,23 @@
 <section class="backgrounddegrade" style="margin:0 0 50 0; padding: 15px;">
 	<div class="container">
 	  <div class="card-deck-wrapper">
-		  <div class="card-deck">
-		    <div class="card">
+			<div class="col-xl-12">
+		    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+					<div class="card">
+			      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
+			      <div class="card-block">
+			        <h4 class="card-title">Simple</h4>
+			        <p class="card-text" style="text-align: left">
+			        	<?php echo $contenido; ?>
+			        </p>
+			        <p class="card-text">
+		                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
+			        </p>
+			      </div>
+			    </div>
+		    </div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+		    	<div class="card">
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
@@ -278,17 +353,9 @@
 		        </p>
 		      </div>
 		    </div>
-		    <div class="card">
-		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
-		      <div class="card-block">
-		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left"><?php echo $contenido; ?></p>
-		        <p class="card-text">
-	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
-		        </p>
-		      </div>
-		    </div>
-		    <div class="card">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+		    	<div class="card">
 		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
 		      <div class="card-block">
 		        <h4 class="card-title">Simple</h4>
@@ -300,6 +367,21 @@
 		        </p>
 		      </div>
 		    </div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+		    	<div class="card">
+		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
+		      <div class="card-block">
+		        <h4 class="card-title">Simple</h4>
+		        <p class="card-text" style="text-align: left">
+		        	<?php echo $contenido; ?>
+		        </p>
+		        <p class="card-text">
+	              <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
+		        </p>
+		      </div>
+		    </div>
+				</div>
 		  </div>
 	  </div>
 	</div>

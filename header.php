@@ -13,7 +13,7 @@
     <!--Google Fonts-->
     <style>
       @import 'https://fonts.googleapis.com/css?family=Poiret+One';
-      @import 'https://fonts.googleapis.com/css?family=Cormorant+Upright';
+      @import 'https://fonts.googleapis.com/css?family=Mandali';
     </style>
     <!--END Google Fonts-->
 

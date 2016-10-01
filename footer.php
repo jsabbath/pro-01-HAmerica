@@ -39,7 +39,7 @@
 
 <style>
   #habitacionmatrimonial{
-    background-image: url('http://wallpapercave.com/wp/uUO50NS.jpg'), linear-gradient(red,yellow);
+    /*background-image: url('http://wallpapercave.com/wp/uUO50NS.jpg'), linear-gradient(red,yellow);*/
     background-size: cover;
   }
     .row{
@@ -111,8 +111,14 @@
     }
     body{
         unicode-bidi: embed;
-        font-family: helvetica, arial, sans-serif;
+        /*font-family: helvetica, arial, sans-serif;*/
+        font-family: 'Mandali', sans-serif;
     }
+    .text-aside{
+        font-family: 'Mandali', sans-serif;
+        font-size: 20px;
+    }
+
     *{
         margin: 0 auto;
         text-align: center;
@@ -194,7 +200,7 @@
         color:rgba(0, 0, 0, 0.69);
     }
     p{
-      font-family: 'Cormorant Upright', serif;
+      /*font-family: 'Cormorant Upright', serif;*/
       font-size: 23px;
       font-weight: bolt;
       color:rgba(0, 0, 0, 0.69);
@@ -204,7 +210,7 @@
         width: 40%;
     }
     pin{
-        font-family: 'Cormorant Upright', serif;
+        font-family: 'Text Me One', sans-serif;
         font-size: 29px;
     }
     /**/
