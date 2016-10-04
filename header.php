@@ -9,6 +9,11 @@
     <meta name="author" content="">
     <link rel="icon" type="image/png" href="img/logoha.png" />
     <meta name="viewport" content="width=device-width, user-scalable=no">
+     
+    <!--[if lte IE 7]>
+    <link type="text/css" rel="stylesheet" media="all" href="css/screen_ie.css" />
+    <![endif]-->
+    <!--END chat-->
 
     <!--Google Fonts-->
     <style>

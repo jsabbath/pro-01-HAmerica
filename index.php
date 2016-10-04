@@ -34,8 +34,8 @@
     </section>
     <!--carrousel-->
 
-    <!--Habitacion simple list-->
-    <section class="backgroundwhite" style="margin:50 0 0 0; padding-top: 50px">
+    <!-- list-->
+    <section class="" style="margin:50 0 0 0; padding-top: 50px" style="background-color:#d2b29d">
         <div class="container">
             <div class="row">
                 <div class="page-header tittle-ha">
@@ -48,9 +48,7 @@
                 </div>
                 <div class="card-text text-information" style="padding-bottom: 70px">
                     <p class="text-aside">
-                      <!--strong-->
                         Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.
-                      <!--/strong-->
                     </p>
                     <br>
                     <p><img class="btn-down-nmtn" src="http://goodjudgment.com/bin/arrow-down-white.png" alt="" width="80px"></p>
@@ -58,7 +56,10 @@
             </div>
         </div>
     </section>
-    <section class="backgrounddegrade" style="margin:0 0 50 0; padding: 15px; padding-bottom: 50px">
+
+    <!--END Habitacion simple list-->
+    <div class="box" style="margin-top:0px; background-color:#e9ebee; padding-top:100px;padding-bottom:70px; margin-bottom:0px">
+      <div class="wrapper">
         <div class="container">
             <div class="row">
                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
@@ -68,12 +69,11 @@
                         <h4 class="card-title">Habitación Simple</h4>
                         <p class="card-text"><small class="text-muted">S/. 30.00 Soles </small><span class="label label-success">Nueva Oferta</span></p>
                         <p class="card-text">
-                            <!--img src="img/glyphicons/glyphicons-516-shower.png" alt=""--> Ducha Propia
+                            Ducha Propia
                             <br>
-                            <!--img src="img/glyphicons/glyphicons-496-bed-alt.png" alt=""-->
                             Tres Camas
                             <br>
-                            <!--img src="img/glyphicons/glyphicons-276-fast-food.png" alt=""--> Servicio Habitación
+                            Servicio Habitación
                             <br>
                         </p>
                         <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Ver detalles de Habitación Simple">
@@ -89,12 +89,11 @@
                         <h4 class="card-title">Habitación Doble</h4>
                         <p class="card-text"><small class="text-muted">S/. 30.00 Soles </small><span class="label label-success">Nueva Oferta</span></p>
                         <p class="card-text">
-                            <!--img src="img/glyphicons/glyphicons-516-shower.png" alt=""--> Ducha Propia
+                            Ducha Propia
                             <br>
-                            <!--img src="img/glyphicons/glyphicons-496-bed-alt.png" alt=""-->
                             Tres Camas
                             <br>
-                            <!--img src="img/glyphicons/glyphicons-276-fast-food.png" alt=""--> Servicio Habitación
+                            Servicio Habitación
                             <br>
                         </p>
                         <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Ver detalles de Habitación Doble">
@@ -110,12 +109,11 @@
                         <h4 class="card-title">Habitación Triple</h4>
                         <p class="card-text"><small class="text-muted">S/. 30.00 Soles </small><span class="label label-warning">Quedan 2 días</span></p>
                         <p class="card-text">
-                            <!--img src="img/glyphicons/glyphicons-516-shower.png" alt=""--> Ducha Propia
+                            Ducha Propia
                             <br>
-                            <!--img src="img/glyphicons/glyphicons-496-bed-alt.png" alt=""-->
                             Tres Camas
                             <br>
-                            <!--img src="img/glyphicons/glyphicons-276-fast-food.png" alt=""--> Servicio Habitación
+                            Servicio Habitación
                             <br>
                         </p>
                         <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Ver detalles de Habitación Triple">
@@ -131,12 +129,11 @@
                         <h4 class="card-title">Matrimonial</h4>
                         <p class="card-text"><small class="text-muted">S/. 30.00 Soles</small></p>
                         <p class="card-text">
-                            <!--img src="img/glyphicons/glyphicons-516-shower.png" alt=""--> Ducha Propia
+                            Ducha Propia
                             <br>
-                            <!--img src="img/glyphicons/glyphicons-496-bed-alt.png" alt=""-->
                             Tres Camas
                             <br>
-                            <!--img src="img/glyphicons/glyphicons-276-fast-food.png" alt=""--> Servicio Habitación
+                            Servicio Habitación
                             <br>
                         </p>
                         <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Ver detalles de habitacion Matrimonial">
@@ -147,81 +144,78 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!--END Habitacion simple list-->
+          <a href="habitaciones.php" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Ver más habitaciones" style="margin-top:20px">
+              Saber Más
+          </a>
+      </div>
+    </div>
 
-    <!-- services Section -->
-    <section class="backgroundwhite" style="margin:50 0 0 0; padding-top: 50px;background-color:#475e88; color:white; background-image: url('img/winhd.jpg');
-    background-size: cover;">
-        <div class="container">
-            <div class="row">
-                <div class="page-header tittle-ha">
-                    <h1 class="titlediv" style="text-align:center; color:white">
-                      <strong>Nuestros Servicios</strong>
-                    </h1>
-                    <div class="" style="border-bottom: solid 1px white; width:40%"></div>
-                </div>
-                <div class="card-text text-information" style="padding-bottom: 70px;">
-                    <p style=" color:white" class="text-aside">
-                      <!--strong-->
-                        Hospedaje America cuenta con los siguientes servicios a disposición de nuestra clientela, siempre buscando mejorar nuestros servicios con la finalidad de dar a nuestra clientela el mejor trato posible.
-                      <!--/strong-->
-                    </p>
-                    <br>
-                    <p><img class="btn-down-nmtn" src="https://james-lawrence-pkyt.squarespace.com/s/arrow-down2x.png" alt="" width="80px"></p>
-                </div>
-            </div>
+    <!--Nuestros servicios diagonal-->
+    <div class="box" style="background-color:#475e88; padding-top:100px; padding-bottom:100px; margin-top:0px">
+      <div class="wrapper">
+        <h1 class="titlediv" style="text-align:center; color:white">
+          <strong>Nuestros Servicios</strong>
+        </h1>
+        <div class="" style="border-bottom: solid 1px white; width:40%"></div>
+        <br>
+        <p class="text-aside" style="width:50%; min-width:250px;color:white; margin: 0 auto">
+            Hospedaje America cuenta con los siguientes servicios a disposición de nuestra clientela, siempre buscando mejorar nuestros servicios con la finalidad de dar a nuestra clientela el mejor trato posible.
+        </p>
+        <div style="margin-top:50px">
+          <img class="btn-down-nmtn" src="http://goodjudgment.com/bin/arrow-down-white.png" alt="" width="80px">
         </div>
-    </section>
-    <section id="about" class="intro-section" style="background: -webkit-linear-gradient(#fff, #e9ebee);">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3" style="color: gray; margin-top: 15px">
-                        <div class="card">
-                          <img class="card-img-top img-responsive" src="img/LIBROS-MOCKUP.jpeg" alt="Card image cap">
-                          <div class="card-block">
-                            <p class="card-text">Internet/WiFi
-                            </p>
+      </div>
+    </div>
+    <div class="box" style="margin-top:0px; background-color:#e9ebee; padding-top:70px;padding-bottom:100px; ">
+      <div class="wrapper">
+        <p>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3" style="color: gray; margin-top: 15px">
+                          <div class="card">
+                            <img class="card-img-top img-responsive" src="img/LIBROS-MOCKUP.jpeg" alt="Card image cap">
+                            <div class="card-block">
+                              <p class="card-text">Internet/WiFi
+                              </p>
+                            </div>
                           </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3" style="color: gray; margin-top: 15px">
-                        <div class="card">
-                          <img class="card-img-top img-responsive" src="http://d243u7pon29hni.cloudfront.net/images/products/tv_led_samsung_48j5200_2_ad_l.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <p class="card-text">TV/Cable
-                            </p>
+                      </div>
+                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3" style="color: gray; margin-top: 15px">
+                          <div class="card">
+                            <img class="card-img-top img-responsive" src="http://d243u7pon29hni.cloudfront.net/images/products/tv_led_samsung_48j5200_2_ad_l.jpg" alt="Card image cap">
+                            <div class="card-block">
+                              <p class="card-text">TV/Cable
+                              </p>
+                            </div>
                           </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3" style="color: gray; margin-top: 15px">
-                        <div class="card">
-                          <img class="card-img-top img-responsive" src="img/shower2.JPG" alt="Card image cap">
-                          <div class="card-block">
-                            <p class="card-text">Ducha Caliente
-                            </p>
+                      </div>
+                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3" style="color: gray; margin-top: 15px">
+                          <div class="card">
+                            <img class="card-img-top img-responsive" src="img/shower2.JPG" alt="Card image cap">
+                            <div class="card-block">
+                              <p class="card-text">Ducha Caliente
+                              </p>
+                            </div>
                           </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3" style="color: gray; margin-top: 15px">
-                        <div class="card">
-                          <img class="card-img-top img-responsive" src="img/resized-afternoon-tea-panel-1412071221.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <p class="card-text">Desayuno
-                            </p>
+                      </div>
+                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3" style="color: gray; margin-top: 15px">
+                          <div class="card">
+                            <img class="card-img-top img-responsive" src="img/resized-afternoon-tea-panel-1412071221.jpg" alt="Card image cap">
+                            <div class="card-block">
+                              <p class="card-text">Desayuno
+                              </p>
+                            </div>
                           </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12" style="margin-top:50px;">
-                  <a href="servicios.php" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Ver más servicios">
-                      Saber Más
-                  </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
+                      </div>
+                  </div>
+                    <a href="servicios.php" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Ver más servicios" style="margin-top:20px">
+                        Saber Más
+                    </a>
+              </div>
+          </div>
+        </p>
+      </div>
+    </div>
+    <!--END Nuestros servicios diagonal-->
 <?php include('footer.php'); ?>

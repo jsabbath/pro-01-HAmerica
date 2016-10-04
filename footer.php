@@ -1,6 +1,6 @@
-    <footer class="footer" style="padding-top: 10px;">
+    <footer class="footer" style="">
       <div class="container">
-        <p class="text-muted">Hospedaje America ©2016 - Developed by Enigma ♚</p>
+        <p class="text-footer">Hospedaje America ©2016 - Developed by Enigma ♚</p>
       </div>
     </footer>
 
@@ -38,6 +38,13 @@
 </html>
 
 <style>
+  footer{
+      margin-top: 70px;
+      margin-bottom: 10px;
+  }
+  .text-footer{
+    font-size: 15px;
+  }
   #habitacionmatrimonial{
     /*background-image: url('http://wallpapercave.com/wp/uUO50NS.jpg'), linear-gradient(red,yellow);*/
     background-size: cover;
@@ -62,7 +69,7 @@
         filter: blur(5px);
     }
     .tittle-ha{
-        margin-top: 50px
+        margin-top: 50px;
     }
     .text-information{
         margin-right: 20%;
@@ -128,6 +135,15 @@
     /*@media screen (max-width:610px) and (min-width: 0px;){
        *{overflow-x:hidden;}
     }*/
+    @media screen and (max-width: 365px){
+      *{
+        margin: 0 auto;
+      }
+      .card{
+        margin: 0 auto;
+        text-align: center;
+      }
+    }
     @media screen and (min-width: 381px){
         .img-logo-ha{
             height: 90px;
@@ -147,6 +163,18 @@
         .text-information{
             margin-right: 9%;
             margin-left: 9%;
+        }
+        .text-aside{
+            font-size: 16px;
+        }
+        .titlediv{
+            font-size:!important 26px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        .card{
+            width: 250px;
+            text-align: center;
         }
     }
     @media screen and (max-width:995px){
@@ -236,3 +264,24 @@
         border-radius: 0px 3px 8px 8px;
     }
 </style>
+
+    <style media="screen">
+    .box {
+        background-color: skyblue;
+        margin-top: 50px;
+        padding: 5% 20px; /* Added a percentage value for top/bottom padding to keep the wrapper inside of the parent */
+
+        -webkit-transform: skewY(-5deg);
+        -moz-transform: skewY(-5deg);
+        -ms-transform: skewY(-5deg);
+        -o-transform: skewY(-5deg);
+        transform: skewY(-5deg);
+    }
+    .box > .wrapper {
+        -webkit-transform: skewY(5deg);
+        -moz-transform: skewY(5deg);
+        -ms-transform: skewY(5deg);
+        -o-transform: skewY(5deg);
+        transform: skewY(5deg);
+    }
+    </style>
