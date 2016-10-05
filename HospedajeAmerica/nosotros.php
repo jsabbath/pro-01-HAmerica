@@ -80,7 +80,8 @@
     </div>
     <!--END Nuestros servicios diagonal-->
 
-    <div class="box" id='historia' style="background: linear-gradient(to left,#DE6262,#FFB88C); padding-top:100px; padding-bottom:100px; margin-top:0px">
+    <div class="box" id='historia' style="background: linear-gradient(to left,#DE6262,#FFB88C); padding-top:100px; padding-bottom:100px; margin-top:0px;
+box-shadow: 3px 19px 59px -6px rgba(199,199,199,1);">
       <div class="wrapper">
         <h1 class="titlediv" style="text-align:center; color:white">
           <strong>Nuestra Historia</strong>
