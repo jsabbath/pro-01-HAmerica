@@ -9,7 +9,8 @@
 	<div id="carousel-example" class="carousel slide" data-ride="carousel">
 	  <div class="carousel-inner">
 	    <div class="item active">
-	      <a href="#"><img src="http://www.chennaicleaningservices.in/img/Fullslider/slider1.jpg" /></a>
+	      <a href="#">
+          <img src="http://www.chennaicleaningservices.in/img/Fullslider/slider1.jpg" /></a>
 	      <div class="carousel-caption">
           <h1 class="titlediv" style="text-align:center; color:white">
 						<strong>Nuestros Servicios</strong>
@@ -21,7 +22,8 @@
 						<!--/strong-->
 					</p>
           <br>
-  				<p><img class="btn-down-nmtn" src="https://james-lawrence-pkyt.squarespace.com/s/arrow-down2x.png" alt="" width="80px"></p>
+  				<p>
+            <img class="btn-down-nmtn" src="https://james-lawrence-pkyt.squarespace.com/s/arrow-down2x.png" alt="" width="80px"></p>
           <br>
           <br>
 	      </div>

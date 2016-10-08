@@ -223,13 +223,15 @@
         border: solid 2px #2196F3;
     }
     h1{
-        font-family: 'Poiret One', cursive;
+        /*font-family: 'Poiret One', cursive;*/
+        font-family: helvetica;
+        font-size:27px;
         font-weight: bolt;
         color:rgba(0, 0, 0, 0.69);
     }
     p{
-      /*font-family: 'Cormorant Upright', serif;*/
-      font-size: 23px;
+      /*font-family: 'Cormorant Upright', serif;
+      font-size: 23px;*/
       font-weight: bolt;
       color:rgba(0, 0, 0, 0.69);
     }
@@ -269,7 +271,8 @@
     .box {
         background-color: skyblue;
         margin-top: 50px;
-        padding: 5% 20px; /* Added a percentage value for top/bottom padding to keep the wrapper inside of the parent */
+        /*padding: 5% 20px; */
+        /* Added a percentage value for top/bottom padding to keep the wrapper inside of the parent */
 
         -webkit-transform: skewY(-5deg);
         -moz-transform: skewY(-5deg);
@@ -283,5 +286,9 @@
         -ms-transform: skewY(5deg);
         -o-transform: skewY(5deg);
         transform: skewY(5deg);
+    }
+
+    .card{
+        margin-top: 15px;
     }
     </style>

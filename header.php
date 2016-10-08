@@ -17,8 +17,9 @@
 
     <!--Google Fonts-->
     <style>
-      @import 'https://fonts.googleapis.com/css?family=Poiret+One';
-      @import 'https://fonts.googleapis.com/css?family=Mandali';
+      /*@import 'https://fonts.googleapis.com/css?family=Poiret+One';
+      @import 'https://fonts.googleapis.com/css?family=Mandali';*/
+      @import 'https://fonts.googleapis.com/css?family=Julius+Sans+One';
     </style>
     <!--END Google Fonts-->
 
@@ -56,9 +57,9 @@
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="icon-bar" style="margin-right: 0px"></span>
+                    <span class="icon-bar" style="width:30px; margin-right: 0px"></span>
+                    <span class="icon-bar" style="margin-right: 0px"></span>
                 </button>
                 <a class="navbar-brand page-scroll" href="index.php">
                     <img class='img-logo-ha' src="img/logoha.png" alt="Hospedaje America" style=''>
@@ -91,12 +92,20 @@
                           <li><a href="habitaciones.php#habitacionmatrimonial">Habitación matrimonial</a></li>
                         </ul>
                     </li>
-                    <li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Reservas
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a href="habitaciones.php#habitacionsimple">Reservar</a></li>
+                          <li><a href="habitaciones.php#habitaciondoble">Simulador</a></li>
+                        </ul>
+                    </li>
+                    <!--li>
                         <a class="page-scroll" href="reservas.php">Reservas</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="simulator.php">Simulador</a>
-                    </li>
+                    </li-->
                     <li>
                         <a class="page-scroll" href="contact.php">Contactos</a>
                     </li>

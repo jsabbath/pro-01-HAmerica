@@ -29,18 +29,18 @@
         </div>
       </div>
     </div>
-    <div class="box" style="margin-top:0px; background-color:#e9ebee; padding-top:70px;padding-bottom:100px;">
+    <div class="box" style="margin-top:0px; background-color:#e9ebee; padding-top:70px; padding-bottom:100px;">
       <div class="wrapper">
         <p>
           <div class="container">
               <div class="row">
                   <div class="col-lg-12">
-                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-5" style="color: gray; margin-top: 15px">
+                      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" style="color: gray; margin-top: 15px">
                           <div class="card">
                             <div class="card-block" style="background: linear-gradient(to right, #00BCD4,#2196F3);color: white;">
-							    <h1 class="card-title" style="color:white">
-							    Misión</h1>
-						    </div>
+            							    <h1 class="card-title" style="color:white">
+            							    Misión</h1>
+            						    </div>
                             <div class="card-block">
                               <p class="card-text" style="font-size: 16px; padding-bottom: 10px">
                               <img src="http://gruporeforma.mural.com/graficoanimado/primerafila/cobertura166/img/comillas.png" alt="" style="width:25px;"> Brindar reposo confortable en un ambiente de comodidad, higiene y seguridad ya que nuestros usuarios son nuestra prioridad.
@@ -49,17 +49,12 @@
                             </div>
                           </div>
                       </div>
-                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2">
-                          <div class="content">
-	                      	<img src="img/logoha.png" alt="Logo hospedaje america" style="width: 80%; padding-top:50px;">
-	                      </div>	                      	
-                      </div>
-                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-5" style="color: gray; margin-top: 15px;">
+                      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" style="color: gray; margin-top: 15px;">
                           <div class="card">
                             <div class="card-block" style="background: linear-gradient(to right, #2196F3, #00BCD4);color: white;">
-							    <h1 class="card-title" style="color:white">
-							    Visión</h1>
-						    </div>
+            							    <h1 class="card-title" style="color:white">
+            							    Visión</h1>
+            						    </div>
                             <div class="card-block">
                               <p class="card-text" style="font-size: 16px; padding-bottom: 10px">
                               <img src="http://gruporeforma.mural.com/graficoanimado/primerafila/cobertura166/img/comillas.png" alt="" style="width:25px;">
@@ -70,9 +65,6 @@
                           </div>
                       </div>
                   </div>
-                  <div style="margin-top:50px">
-			          <img class="btn-down-nmtn" src="http://goodjudgment.com/bin/arrow-down-white.png" alt="" width="80px">
-			      </div>
               </div>
           </div>
         </p>
@@ -478,6 +470,6 @@ box-shadow: 3px 19px 59px -6px rgba(199,199,199,1);">
 			}
 		});
     </script>
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <!--script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script-->
 <?php include('footer.php'); ?>
