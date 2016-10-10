@@ -3,6 +3,11 @@
 <head>
 
     <meta charset="utf-8">
+    
+    <!--Refrescar la pag cada segundo-->
+    <!--meta http-equiv="refresh" content="1"-->
+    <!--END Refrescar la pag cada segundo-->
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -18,8 +23,9 @@
     <!--Google Fonts-->
     <style>
       /*@import 'https://fonts.googleapis.com/css?family=Poiret+One';
-      @import 'https://fonts.googleapis.com/css?family=Mandali';*/
-      @import 'https://fonts.googleapis.com/css?family=Julius+Sans+One';
+      @import 'https://fonts.googleapis.com/css?family=Mandali';
+      @import 'https://fonts.googleapis.com/css?family=Julius+Sans+One';*/
+      @import 'https://fonts.googleapis.com/css?family=Muli';
     </style>
     <!--END Google Fonts-->
 
@@ -50,7 +56,6 @@
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top top-nav-collapse" role="navigation" style="border-bottom: solid 5px white;background-color: #9a0d02; border-color: rgba(154, 13, 2, 0);">
         <div class="container">

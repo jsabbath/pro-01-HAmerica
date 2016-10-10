@@ -1,21 +1,32 @@
+    <div style='
+    margin-top: 90px;
+    '>
+
+    <!--fb comments-->
+    <?php include('commentfb.php'); ?>
+    <!--end fb comments-->
+
+    </div>
     <footer class="footer" style="">
       <div class="container">
-        <p class="text-footer">Hospedaje America ©2016 - Developed by Enigma ♚</p>
+        <p class="text-footer">
+          Hospedaje America © 2016 - Developed by 
+          <a href="" style="background:blue; color:white; padding: 3px; padding-right: 5px; padding-left: 5px; text-decoration: none; border-radius: 5px; font-size: 14px">Enigma TM</a>
+        </p>
       </div>
     </footer>
 
 
+    
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <!--script src="js/scrolling-nav.js"></script-->
 
-    <!--Carrouseñ-->
+    <!--Carrousel Js-->
     <script>
         // Activate Carousel
         $("#myCarousel").carousel();
@@ -34,21 +45,31 @@
           $('[data-toggle="tooltip"]').tooltip()
         })
     </script>
+
+    <script>
+    //refrescar pagina con js
+      /*(function(){
+        setInterval(
+          function(){
+            document.location.reload()
+          },1000)
+          })()
+    </script>
 </body>
 </html>
 
 <style>
-  footer{
-      margin-top: 70px;
-      margin-bottom: 10px;
-  }
-  .text-footer{
-    font-size: 15px;
-  }
-  #habitacionmatrimonial{
-    /*background-image: url('http://wallpapercave.com/wp/uUO50NS.jpg'), linear-gradient(red,yellow);*/
-    background-size: cover;
-  }
+    footer{
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+    .text-footer{
+      font-size: 15px;
+    }
+    #habitacionmatrimonial{
+      /*background-image: url('http://wallpapercave.com/wp/uUO50NS.jpg'), linear-gradient(red,yellow);*/
+      background-size: cover;
+    }
     .row{
        /* background: white;
         margin-top: 50px;*/
@@ -224,9 +245,10 @@
     }
     h1{
         /*font-family: 'Poiret One', cursive;*/
-        font-family: helvetica;
+        font-family: 'Muli', sans-serif;
         font-size:27px;
-        font-weight: bolt;
+        /*font-weight: bolt;*/
+        color:rgba(255, 255, 255, 0.87);
         color:rgba(0, 0, 0, 0.69);
     }
     p{
@@ -266,29 +288,26 @@
         border-radius: 0px 3px 8px 8px;
     }
 </style>
-
-    <style media="screen">
-    .box {
-        background-color: skyblue;
-        margin-top: 50px;
-        /*padding: 5% 20px; */
-        /* Added a percentage value for top/bottom padding to keep the wrapper inside of the parent */
-
-        -webkit-transform: skewY(-5deg);
-        -moz-transform: skewY(-5deg);
-        -ms-transform: skewY(-5deg);
-        -o-transform: skewY(-5deg);
-        transform: skewY(-5deg);
-    }
-    .box > .wrapper {
-        -webkit-transform: skewY(5deg);
-        -moz-transform: skewY(5deg);
-        -ms-transform: skewY(5deg);
-        -o-transform: skewY(5deg);
-        transform: skewY(5deg);
-    }
-
-    .card{
-        margin-top: 15px;
-    }
-    </style>
+<style media="screen">
+  .box {
+      background-color: skyblue;
+      margin-top: 50px;
+      /*padding: 5% 20px; */
+      /* Added a percentage value for top/bottom padding to keep the wrapper inside of the parent */
+      -webkit-transform: skewY(-5deg);
+      -moz-transform: skewY(-5deg);
+      -ms-transform: skewY(-5deg);
+      -o-transform: skewY(-5deg);
+      transform: skewY(-5deg);
+  }
+  .box > .wrapper {
+      -webkit-transform: skewY(5deg);
+      -moz-transform: skewY(5deg);
+      -ms-transform: skewY(5deg);
+      -o-transform: skewY(5deg);
+      transform: skewY(5deg);
+  }
+  .card{
+      margin-top: 15px;
+  }
+</style>

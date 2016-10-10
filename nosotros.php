@@ -3,14 +3,16 @@
 	//nosotros.php
  ?>
     <!--Nuestros servicios diagonal-->
-    <div class="box" style="background:linear-gradient(to bottom right,#3F51B5,#475e88); padding-top:150px; padding-bottom:100px; margin-top:0px">
+    <div class="box" style="background: linear-gradient(to right, #296ad4 0%, #4e8ef7 100%); padding-top:150px; padding-bottom:100px; margin-top:0px">
       <div class="wrapper">
         <h1 class="titlediv" style="text-align:center; color:white">
-          <strong>Sobre Hospedaje América</strong>
+          <!--strong-->
+            Sobre Hospedaje América
+          <!--/strong-->
         </h1>
         <div class="" style="border-bottom: solid 1px white; width:40%"></div>
         <br>
-        <p class="text-aside" style="width:75%; min-width:250px;color:white; margin: 0 auto">
+        <p class="text-aside" style="width:75%; min-width:250px; margin: 0 auto; color:rgba(255, 255, 255, 0.64);">
             Nuestro Hospedaje se encuentra en la Ciudad de Huancayo, estamos a 6 cuadras de la Plaza de Armas y 3 Cuadras de la Municipalidad de Huancayo, en una zona bastante concurrida y con personal de seguridad permanente.
             El confort no solamente lo sentirá en nuestras instalaciones, sino que también en la calidez y asesoramiento por parte nuestra, en cuestión gastronómica, cultural, turística y de diversión, asistiéndolo también en cuestiones de ubicación institucional en caso de personal ejecutivo.
             Contando también entre nuestros servicios a su disposición con una cabina de internet en caso de que no cuenten con Laptop; así como los breakfast y Cocteles.
@@ -39,7 +41,8 @@
                           <div class="card">
                             <div class="card-block" style="background: linear-gradient(to right, #00BCD4,#2196F3);color: white;">
             							    <h1 class="card-title" style="color:white">
-            							    Misión</h1>
+            							      Misión
+                              </h1>
             						    </div>
                             <div class="card-block">
                               <p class="card-text" style="font-size: 16px; padding-bottom: 10px">
@@ -53,13 +56,14 @@
                           <div class="card">
                             <div class="card-block" style="background: linear-gradient(to right, #2196F3, #00BCD4);color: white;">
             							    <h1 class="card-title" style="color:white">
-            							    Visión</h1>
+            							       Visión
+                              </h1>
             						    </div>
                             <div class="card-block">
                               <p class="card-text" style="font-size: 16px; padding-bottom: 10px">
-                              <img src="http://gruporeforma.mural.com/graficoanimado/primerafila/cobertura166/img/comillas.png" alt="" style="width:25px;">
-                              Ser un centro de reposo reconocido a nivel regional por la buena calidad del servicio brindado a nuestros clientes y la satisfacción de sus usuarios.
-                              <img src="http://gruporeforma.mural.com/graficoanimado/primerafila/cobertura166/img/comillas.png" alt="" style="width:25px;transform:rotate(180deg);">
+                                <img src="http://gruporeforma.mural.com/graficoanimado/primerafila/cobertura166/img/comillas.png" alt="" style="width:25px;">
+                                Ser un centro de reposo reconocido a nivel regional por la buena calidad del servicio brindado a nuestros clientes y la satisfacción de sus usuarios.
+                                <img src="http://gruporeforma.mural.com/graficoanimado/primerafila/cobertura166/img/comillas.png" alt="" style="width:25px;transform:rotate(180deg);">
                               </p>
                             </div>
                           </div>
@@ -72,99 +76,91 @@
     </div>
     <!--END Nuestros servicios diagonal-->
 
-    <div class="box" id='historia' style="background: linear-gradient(to left,#DE6262,#FFB88C); padding-top:100px; padding-bottom:100px; margin-top:0px;
-box-shadow: 3px 19px 59px -6px rgba(199,199,199,1);">
+    <div class="box" id='historia' style="background: linear-gradient(to left,#DE6262,#FFB88C); padding-top:100px; padding-bottom:100px; margin-top:0px; box-shadow: 3px 19px 59px -6px rgba(199,199,199,1);">
       <div class="wrapper">
         <h1 class="titlediv" style="text-align:center; color:white">
-          <strong>Nuestra Historia</strong>
+          <!--strong-->
+            Nuestra Historia
+          <!--/strong-->
         </h1>
         <div class="" style="border-bottom: solid 1px white; width:40%"></div>
         <br>
         <p class="text-aside" style="width:50%; min-width:250px;color:white; margin: 0 auto">
-            Esta es una parte de la historia de Hospedaje America a lo largo de estos años de creacion, brindando servicio de Hospedaje a la población del Valle dle Mantaro.
+            Esta es una parte de la historia de Hospedaje América a lo largo de estos años de creación, brindando servicio de Hospedaje a la población del Valle del Mantaro.
         </p>
         <div style="margin-top:50px">
           <img class="btn-down-nmtn" src="http://goodjudgment.com/bin/arrow-down-white.png" alt="" width="80px">
         </div>
       </div>
     </div>
-
-
     <div class="box" style="margin-top:0px; background-color:#e9ebee; padding-top:70px;padding-bottom:100px; ">
       <div class="wrapper">
-		<div class="container">
-		    <ul class="timeline">
-		        <li>
-		          <div class="timeline-badge primary"></div>
-		          <div class="timeline-panel">
-		            <div class="timeline-heading">
-		              <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
-		              
-		            </div>
-		            <div class="timeline-body">
-		              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-		              
-		            </div>
-		            
-		            <div class="timeline-footer">
-		                <a class="">22/12/2016</a>
-		            </div>
-		          </div>
-		        </li>
-		        
-		        <li  class="timeline-inverted">
-		          <div class="timeline-badge primary"></div>
-		          <div class="timeline-panel">
-		            <div class="timeline-heading">
-		              <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
-		              
-		            </div>
-		            <div class="timeline-body">
-		              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-		             
-		            </div>
-		            
-		            <div class="timeline-footer">
-		                <a class="">22/12/2016</a>
-		            </div>
-		          </div>
-		        </li>
-		        
-		        <li>
-		          <div class="timeline-badge primary"></div>
-		          <div class="timeline-panel">
-		            <div class="timeline-heading">
-		              <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
-		              
-		            </div>
-		            <div class="timeline-body">
-		              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-		              
-		            </div>
-		            
-		            <div class="timeline-footer">
-		               <a class="">22/12/2016</a>
-		            </div>
-		          </div>
-		        </li>
-		        
-		        <li  class="timeline-inverted">
-		          <div class="timeline-badge primary"></div>
-		          <div class="timeline-panel">
-		            <div class="timeline-body">
-		              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-		              
-		            </div>
-		            
-		            <div class="timeline-footer">
-		                <a class="">22/12/2016</a>
-		            </div>
-		          </div>
-		        </li>
-		        
-		        <li class="clearfix" style="float: none;"></li>
-		    </ul>
-		</div>
+    		<div class="container">
+    		    <ul class="timeline">
+    		        <li>
+    		          <div class="timeline-badge primary"></div>
+    		          <div class="timeline-panel">
+    		            <!--div class="timeline-heading">
+                      <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
+                    </div-->
+    		            <div class="timeline-body">
+    		              <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem recusandae qui suscipit nihil, quisquam doloribus. Explicabo nesciunt facere eligendi, ex cum aliquam quod labore necessitatibus, quas aspernatur vero fugit nulla.
+                      </p>
+    		            </div>
+    		            <div class="timeline-footer">
+    		                <a class="">22/12/2016</a>
+    		            </div>
+    		          </div>
+    		        </li>		        
+    		        <li  class="timeline-inverted">
+    		          <div class="timeline-badge primary"></div>
+    		          <div class="timeline-panel">
+    		            <!--div class="timeline-heading">
+    		              <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
+    		            </div-->
+    		            <div class="timeline-body">
+    		              <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cumque consequuntur iure doloribus accusamus adipisci tempore distinctio, hic temporibus eaque quis quia nulla reprehenderit provident recusandae totam accusantium aliquid illum.
+                      </p>
+    		            </div>
+    		            <div class="timeline-footer">
+    		              <a class="">22/12/2016</a>
+    		            </div>
+    		          </div>
+    		        </li>
+    		        <li>
+    		          <div class="timeline-badge primary"></div>
+    		          <div class="timeline-panel">
+    		            <!--div class="timeline-heading">
+                      <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
+                    </div-->
+    		            <div class="timeline-body">
+    		              <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum enim praesentium pariatur ut esse, iure. Omnis est, dolores voluptates sint esse harum officiis et, a ut, iure aut at rerum.
+                      </p>
+    		            </div>
+    		            <div class="timeline-footer">
+    		               <a class="">22/12/2016</a>
+    		            </div>
+    		          </div>
+    		        </li>
+    		        <li  class="timeline-inverted">
+    		          <div class="timeline-badge primary"></div>
+    		          <div class="timeline-panel">
+    		            <div class="timeline-body">
+    		              <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, cupiditate, reprehenderit? Exercitationem praesentium, earum numquam, minima, cupiditate nam eius molestias voluptatum deserunt porro eligendi molestiae error nesciunt. Eligendi, quam, quos.
+                      </p> 
+    		            </div>
+    		            <div class="timeline-footer">
+    		              <a class="">22/12/2016</a>
+    		            </div>
+    		          </div>
+    		        </li>
+    		        <li class="clearfix" style="float: none;"></li>
+    		    </ul>
+    		</div>
       </div>
     </div>
 

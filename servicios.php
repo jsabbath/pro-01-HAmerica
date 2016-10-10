@@ -13,7 +13,7 @@
           <img src="http://www.chennaicleaningservices.in/img/Fullslider/slider1.jpg" /></a>
 	      <div class="carousel-caption">
           <h1 class="titlediv" style="text-align:center; color:white">
-						<strong>Nuestros Servicios</strong>
+						<!--strong-->Nuestros Servicios<!--/strong-->
 					</h1>
 	  			<p class="" style="border-bottom: solid 1px white; width:40%; text-align:center; margin: 0 auto"></p>
 	        <p style="color:white">
@@ -29,16 +29,20 @@
 	      </div>
 	    </div>
 	    <div class="item">
-	      <a href="#"><img src="http://www.jamaicabayinn.com/application/files/4514/5867/0015/marina_del_rey_hotel_room_service.jpg" /></a>
+	      <a href="#">
+          <img src="http://www.jamaicabayinn.com/application/files/4514/5867/0015/marina_del_rey_hotel_room_service.jpg" />
+        </a>
 	      <div class="carousel-caption">
           <h1 class="titlediv" style="text-align:center; color:white">
-						<strong>
+						<!--strong-->
 							Nuestros Servicios
-						</strong>
+						<!--/strong-->
 					</h1>
 	  			<p class="" style="border-bottom: solid 1px white; width:40%; text-align:center; margin: 0 auto"></p>
 	        <p style=" color:white">
-						<!--strong-->Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.<!--/strong-->
+						<!--strong-->
+              Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.
+            <!--/strong-->
 					</p>
           <br>
   				<p><img class="btn-down-nmtn" src="https://james-lawrence-pkyt.squarespace.com/s/arrow-down2x.png" alt="" width="80px"></p>
@@ -50,7 +54,7 @@
 	      <a href="#"><img src="http://www.royalgroup.it/ambasciatoripalace/assets/media/rooms/camere-hotel-lusso-roma-centro.jpg" /></a>
 	      <div class="carousel-caption">
           <h1 class="titlediv" style="text-align:center; color:white">
-						<strong>Nuestros Servicios</strong>
+						<!--strong-->Nuestros Servicios<!--/strong-->
 				  </h1>
 	  			<p class="" style="border-bottom: solid 1px white; width:40%; text-align:center; margin: 0 auto">
 	  			</p>
@@ -82,7 +86,7 @@
 				<div class="row">
 						<div class="page-header tittle-ha">
 								<h1 class="titlediv" style="text-align:center; color:white">
-									<strong>Nuestros Servicios</strong>
+									<!--strong-->Nuestros Servicios<!--/strong-->
 								</h1>
 								<div class="" style="border-bottom: solid 1px white; width:40%"></div>
 						</div>
@@ -98,7 +102,6 @@
 				</div>
 		</div>
 </section>
-
 
 <!--Habitacion simple list-->
 <section id="about" class="intro-section" style="background: -webkit-linear-gradient(#fff, #e9ebee);">
@@ -175,6 +178,5 @@
     </div>
 </section>
 <!--END Habitacion simple list-->
-
 
 <?php include('footer.php'); ?>
