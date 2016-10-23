@@ -105,7 +105,7 @@
                     </div-->
     		            <div class="timeline-body">
     		              <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem recusandae qui suscipit nihil, quisquam doloribus. Explicabo nesciunt facere eligendi, ex cum aliquam quod labore necessitatibus, quas aspernatur vero fugit nulla.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem recusandae qui suscipit nihil, quisquam doloribus. Explicabo nesciunt facere eligendi.
                       </p>
     		            </div>
     		            <div class="timeline-footer">
@@ -121,7 +121,7 @@
     		            </div-->
     		            <div class="timeline-body">
     		              <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cumque consequuntur iure doloribus accusamus adipisci tempore distinctio, hic temporibus eaque quis quia nulla reprehenderit provident recusandae totam accusantium aliquid illum.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cumque consequuntur iure doloribus accusamus adipisci tempore distinctio, 
                       </p>
     		            </div>
     		            <div class="timeline-footer">
@@ -137,7 +137,7 @@
                     </div-->
     		            <div class="timeline-body">
     		              <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum enim praesentium pariatur ut esse, iure. Omnis est, dolores voluptates sint esse harum officiis et, a ut, iure aut at rerum.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum enim praesentium pariatur ut esse, iure.
                       </p>
     		            </div>
     		            <div class="timeline-footer">

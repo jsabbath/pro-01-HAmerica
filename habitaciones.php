@@ -2,6 +2,7 @@
 	include_once('header.php');
 	//habitaciones.php
 	$contenido = 'Este es la descripcion de cada una de estas habitaciones';
+	$buttonText = 'Ver detalles';
 ?>
 
 <section>
@@ -42,350 +43,188 @@
 	</div>
 </section>
 
+    <!-- list-->
+    <section class="" style="margin:50 0 0 0; padding-top: 50px" style="background-color:#d2b29d">
+        <div class="container">
+            <div class="row">
+                <div class="page-header tittle-ha">
+                    <h1 class="titlediv" style="text-align:center;">
+                      <strong>
+                        Nuestras Habitaciones
+                      </strong>
+                    </h1>
+                    <div class="underline-tittle"></div>
+                </div>
+                <div class="card-text text-information" style="padding-bottom: 70px">
+                    <p class="text-aside">
+                        Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.
+                    </p>
+                    <br>
+                    <p><img class="btn-down-nmtn" src="http://goodjudgment.com/bin/arrow-down-white.png" alt="" width="80px"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--END Habitacion simple list-->
+
 <!--Habitacion simple list-->
-<section class="backgroundwhite" style="margin:50 0 0 0; padding-top: 50px" id="habitacionsimple">
-	<div class="container">
-		<div class="row">
-			<div class="page-header tittle-ha">
-	  			<h1 class="titlediv" style="text-align:center;"><strong>Habitación Simple</strong></h1>
-	  			<div class="underline-tittle"></div>
-			</div>
-			<div class="card-text text-information" style="padding-bottom: 70px">
-				<p class="text-aside">
-					<!--strong-->
-						Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.
-					<!--/strong-->
-				</p>
-				<br>
-				<p><img class="btn-down-nmtn" src="img/down2.png" alt="" width="80px"></p>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="backgrounddegrade" style="margin:0 0 50 0; padding: 15px;">
-	<div class="container">
-	  <div class="card-deck-wrapper">
-		  <div class="col-xl-12">
-		    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-					<div class="card">
-			      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
-			      <div class="card-block">
-			        <h4 class="card-title">Simple</h4>
-			        <p class="card-text" style="text-align: left">
-			        	<?php echo $contenido; ?>
-			        </p>
-			        <p class="card-text">
-		                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
-			        </p>
-			      </div>
-			    </div>
-		    </div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-		    	<div class="card">
-		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
-		      <div class="card-block">
-		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">
-		        	<?php echo $contenido; ?>
-		        </p>
-		        <p class="card-text">
-	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
-		        </p>
-		      </div>
-		    </div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-		    	<div class="card">
-		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
-		      <div class="card-block">
-		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">
-		        	<?php echo $contenido; ?>
-		        </p>
-		        <p class="card-text">
-	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
-		        </p>
-		      </div>
-		    </div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-		    	<div class="card">
-		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
-		      <div class="card-block">
-		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">
-		        	<?php echo $contenido; ?>
-		        </p>
-		        <p class="card-text">
-	              <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
-		        </p>
-		      </div>
-		    </div>
-				</div>
-		  </div>
-	  </div>
-	</div>
-</section>
+    <div class="box" style="background-color:#475e88; padding-top:100px; padding-bottom:100px; margin-top:0px">
+      <div class="wrapper">
+        <div class="container">
+            <div class="row">
+				<section>
+					<div id="carousel-example" class="carousel slide" data-ride="carousel">
+					  <div class="carousel-inner">
+					    <div class="item active">
+					      <a href="#"><img src="http://www.losandesinn.com/wp-content/uploads/2015/12/habitacion-simple-banner-03.jpg" /></a>
+					      <div class="carousel-caption">
+					      </div>
+					    </div>
+					    <div class="item">
+					      <a href="#"><img src="http://www.losandesinn.com/wp-content/uploads/2015/12/habitacion-simple-banner-03.jpg" /></a>
+					      <div class="carousel-caption">
+					      </div>
+					    </div>
+					    <div class="item">
+					      <a href="#">
+					      	<img src="http://www.losandesinn.com/wp-content/uploads/2015/12/habitacion-simple-banner-03.jpg" /></a>
+					      <div class="carousel-caption">
+					      </div>
+					    </div>
+					  </div>
+
+					  <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+					    <span class="glyphicon glyphicon-chevron-left"></span>
+					  </a>
+					  <a class="right carousel-control" href="#carousel-example" data-slide="next">
+					    <span class="glyphicon glyphicon-chevron-right"></span>
+					  </a>
+					</div>
+				</section>
+            </div>
+        </div>
+      </div>
+    </div>
 <!--END Habitacion simple list-->
 
 <!--Habitacion doble list-->
-<section class="backgroundwhite" style="margin:50 0 0 0;" id="habitaciondoble">
-	<div class="container">
-		<div class="row" style="margin-top:70px;">
-			<div class="page-header tittle-ha">
-	  			<h1 style="text-align:center;"><strong>Habitación Doble</strong></h1>
-	  			<div class="underline-tittle"></div>
-			</div>
-			<div class="card-text text-information" style="padding-bottom: 70px">
-				<p class="text-aside">
-					<!--strong-->
-						Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.
-					<!--/strong-->
-				</p>
-				<br>
-				<p><img class="btn-down-nmtn" src="img/down2.png" alt="" width="80px"></p>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="backgrounddegrade" style="margin:0 0 50 0; padding: 15px;">
-	<div class="container">
-	  <div class="card-deck-wrapper">
-			<div class="col-xl-12">
-		    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-					<div class="card">
-			      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
-			      <div class="card-block">
-			        <h4 class="card-title">Simple</h4>
-			        <p class="card-text" style="text-align: left">
-			        	<?php echo $contenido; ?>
-			        </p>
-			        <p class="card-text">
-		                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
-			        </p>
-			      </div>
-			    </div>
-		    </div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-		    	<div class="card">
-		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
-		      <div class="card-block">
-		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">
-		        	<?php echo $contenido; ?>
-		        </p>
-		        <p class="card-text">
-	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
-		        </p>
-		      </div>
-		    </div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-		    	<div class="card">
-		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
-		      <div class="card-block">
-		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">
-		        	<?php echo $contenido; ?>
-		        </p>
-		        <p class="card-text">
-	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
-		        </p>
-		      </div>
-		    </div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-		    	<div class="card">
-		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
-		      <div class="card-block">
-		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">
-		        	<?php echo $contenido; ?>
-		        </p>
-		        <p class="card-text">
-	              <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
-		        </p>
-		      </div>
-		    </div>
-				</div>
-		  </div>
-	  </div>
-	</div>
-</section>
+    <div class="box" style="margin-top:0px; background-color:#e9ebee; padding-top:70px;padding-bottom:100px; ">
+      <div class="wrapper">
+        <div class="container">
+            <div class="row">
+				<section>
+					<div id="carousel-example" class="carousel slide" data-ride="carousel">
+					  <div class="carousel-inner">
+					    <div class="item active">
+					      <a href="#"><img src="http://www.losandesinn.com/wp-content/uploads/2015/12/los-andes-inn-banner-03.jpg" /></a>
+					      <div class="carousel-caption">
+					      </div>
+					    </div>
+					    <div class="item">
+					      <a href="#"><img src="http://www.losandesinn.com/wp-content/uploads/2015/12/los-andes-inn-banner-03.jpg" /></a>
+					      <div class="carousel-caption">
+					      </div>
+					    </div>
+					    <div class="item">
+					      <a href="#">
+					      	<img src="http://www.losandesinn.com/wp-content/uploads/2015/12/los-andes-inn-banner-03.jpg" /></a>
+					      <div class="carousel-caption">
+					      </div>
+					    </div>
+					  </div>
+					  <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+					    <span class="glyphicon glyphicon-chevron-left"></span>
+					  </a>
+					  <a class="right carousel-control" href="#carousel-example" data-slide="next">
+					    <span class="glyphicon glyphicon-chevron-right"></span>
+					  </a>
+					</div>
+				</section>
+            </div>
+        </div>
+      </div>
+    </div>
 <!--END Habitacion doble list-->
 
 <!--Habitacion triple list-->
-<section class="backgroundwhite" style="margin:50 0 0 0;" id="habitaciontriple">
-	<div class="container">
-		<div class="row" style="margin-top:70px;">
-			<div class="page-header tittle-ha">
-	  			<h1 style="text-align:center;"><strong>Habitación Triple</strong></h1>
-	  			<div class="underline-tittle" style=""></div>
-			</div>
-			<div class="card-text text-information" style="padding-bottom: 70px">
-				<p class="text-aside">
-					<!--strong-->
-							Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.
-					<!--/strong-->
-				</p>
-				<br>
-				<p><img class="btn-down-nmtn" src="img/down2.png" alt="" width="80px"></p>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="backgrounddegrade" style="margin:0 0 50 0; padding: 15px;">
-	<div class="container">
-	  <div class="card-deck-wrapper">
-			<div class="col-xl-12">
-		    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-					<div class="card">
-			      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
-			      <div class="card-block">
-			        <h4 class="card-title">Simple</h4>
-			        <p class="card-text" style="text-align: left">
-			        	<?php echo $contenido; ?>
-			        </p>
-			        <p class="card-text">
-		                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
-			        </p>
-			      </div>
-			    </div>
-		    </div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-		    	<div class="card">
-		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
-		      <div class="card-block">
-		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">
-		        	<?php echo $contenido; ?>
-		        </p>
-		        <p class="card-text">
-	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
-		        </p>
-		      </div>
-		    </div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-		    	<div class="card">
-		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
-		      <div class="card-block">
-		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">
-		        	<?php echo $contenido; ?>
-		        </p>
-		        <p class="card-text">
-	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
-		        </p>
-		      </div>
-		    </div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-		    	<div class="card">
-		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
-		      <div class="card-block">
-		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">
-		        	<?php echo $contenido; ?>
-		        </p>
-		        <p class="card-text">
-	              <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
-		        </p>
-		      </div>
-		    </div>
-				</div>
-		  </div>
-	  </div>
-	</div>
-</section>
+    <div class="box" style="background-color:#475e88; padding-top:100px; padding-bottom:100px; margin-top:0px">
+      <div class="wrapper">
+        <div class="container">
+            <div class="row">
+				<section>
+					<div id="carousel-example" class="carousel slide" data-ride="carousel">
+					  <div class="carousel-inner">
+					    <div class="item active">
+					      <a href="#"><img src="http://www.losandesinn.com/wp-content/uploads/2015/12/habitacion-triple-banner-03.jpg" /></a>
+					      <div class="carousel-caption">
+					      </div>
+					    </div>
+					    <div class="item">
+					      <a href="#"><img src="http://www.losandesinn.com/wp-content/uploads/2015/12/habitacion-simple-banner-03.jpg" /></a>
+					      <div class="carousel-caption">
+					      </div>
+					    </div>
+					    <div class="item">
+					      <a href="#">
+					      	<img src="http://www.losandesinn.com/wp-content/uploads/2015/12/habitacion-simple-banner-03.jpg" /></a>
+					      <div class="carousel-caption">
+					      </div>
+					    </div>
+					  </div>
+
+					  <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+					    <span class="glyphicon glyphicon-chevron-left"></span>
+					  </a>
+					  <a class="right carousel-control" href="#carousel-example" data-slide="next">
+					    <span class="glyphicon glyphicon-chevron-right"></span>
+					  </a>
+					</div>
+				</section>
+            </div>
+        </div>
+      </div>
+    </div>
 <!--END Habitacion triple list-->
 
 <!--Habitacion Matrimonial list-->
-<section class="backgroundwhite" style="margin:50 0 0 0;" id="habitacionmatrimonial">
-	<div class="container">
-		<div class="row" style="margin-top:70px;">
-			<div class="page-header tittle-ha">
-	  			<h1 style="text-align:center;">
-						<strong>Habitación Matrimonial</strong>
-					</h1>
-	  			<div class="underline-tittle"></div>
-			</div>
-			<div class="card-text text-information" style="padding-bottom: 70px">
-				<p class="text-aside">
-					<!--strong-->
-						Las habitaciones simples, comprenden de una habitacion individual, ideal para personas solteras que disfrutan de la tranquilidad y serenidad y/o gozen del silencio para leer un libro o disfrutar de sus pasatiempos favoritos.
-					<!--/strong-->
-				</p>
-				<br>
-				<p><img class="btn-down-nmtn" src="img/down2.png" alt="" width="80px"></p>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="backgrounddegrade" style="margin:0 0 50 0; padding: 15px;">
-	<div class="container">
-	  <div class="card-deck-wrapper">
-			<div class="col-xl-12">
-		    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-					<div class="card">
-			      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
-			      <div class="card-block">
-			        <h4 class="card-title">Simple</h4>
-			        <p class="card-text" style="text-align: left">
-			        	<?php echo $contenido; ?>
-			        </p>
-			        <p class="card-text">
-		                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
-			        </p>
-			      </div>
-			    </div>
-		    </div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-		    	<div class="card">
-		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
-		      <div class="card-block">
-		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">
-		        	<?php echo $contenido; ?>
-		        </p>
-		        <p class="card-text">
-	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
-		        </p>
-		      </div>
-		    </div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-		    	<div class="card">
-		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
-		      <div class="card-block">
-		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">
-		        	<?php echo $contenido; ?>
-		        </p>
-		        <p class="card-text">
-	                <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
-		        </p>
-		      </div>
-		    </div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-		    	<div class="card">
-		      <img class="card-img-top img-responsive" src="https://martinsprague.files.wordpress.com/2014/02/rooms-deluxe-single.jpg" alt="Card image cap">
-		      <div class="card-block">
-		        <h4 class="card-title">Simple</h4>
-		        <p class="card-text" style="text-align: left">
-		        	<?php echo $contenido; ?>
-		        </p>
-		        <p class="card-text">
-	              <a href="#" class="btn button-blue" data-toggle="tooltip" data-placement="bottom" title="Reservar esta habitación">Reservar</a>
-		        </p>
-		      </div>
-		    </div>
-				</div>
-		  </div>
-	  </div>
-	</div>
-</section>
+    <div class="box" style="margin-top:0px; background-color:#e9ebee; padding-top:70px;padding-bottom:100px; ">
+      <div class="wrapper">
+        <div class="container">
+            <div class="row">
+				<section>
+					<div id="carousel-example" class="carousel slide" data-ride="carousel">
+					  <div class="carousel-inner">
+					    <div class="item active">
+					      <a href="#"><img src="http://www.losandesinn.com/wp-content/uploads/2015/12/habitacion-matrimonial-banner-02.jpg" /></a>
+					      <div class="carousel-caption">
+					      </div>
+					    </div>
+					    <div class="item">
+					      <a href="#"><img src="http://www.losandesinn.com/wp-content/uploads/2015/12/habitacion-matrimonial-banner-02.jpg" /></a>
+					      <div class="carousel-caption">
+					      </div>
+					    </div>
+					    <div class="item">
+					      <a href="#">
+					      	<img src="http://www.losandesinn.com/wp-content/uploads/2015/12/habitacion-matrimonial-banner-02.jpg" /></a>
+					      <div class="carousel-caption">
+					      </div>
+					    </div>
+					  </div>
+
+					  <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+					    <span class="glyphicon glyphicon-chevron-left"></span>
+					  </a>
+					  <a class="right carousel-control" href="#carousel-example" data-slide="next">
+					    <span class="glyphicon glyphicon-chevron-right"></span>
+					  </a>
+					</div>
+				</section>
+            </div>
+        </div>
+      </div>
+    </div>
 <!--END Habitacion Matrimonial list-->
 
 <?php include('footer.php'); ?>

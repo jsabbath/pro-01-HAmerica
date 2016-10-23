@@ -1,23 +1,73 @@
-    <div style='
-    margin-top: 90px;
-    '>
-
-    <!--fb comments-->
-    <?php include('commentfb.php'); ?>
-    <!--end fb comments-->
-
+    <div style='margin-top: 90px;'>
+      <!--fb comments-->
+      <div class="box" style="background-color:white; padding-top:100px; margin-top:0px">
+        <div class="wrapper">
+          <div class="container">
+            <?php include('commentfb.php'); ?>
+          </div>
+        </div>
+      </div> 
+      <!--end fb comments-->
     </div>
+
+    <!--GoogleMaps-->
+    <div style="margin-top: 50px">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1950.7818793676597!2d-75.20617308731079!3d-12.07350774562882!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x951f2c3eba45f1cb!2sHospedaje+Am%C3%A9rica!5e0!3m2!1ses!2sus!4v1473758343832" width="100%" height="390px" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <!--END GoogleMaps-->
+
     <footer class="footer" style="">
+
+    <!--line horizontal-->
+    <div class="line-hor"></div>
+    <!--END line horizontal-->
+
       <div class="container">
         <p class="text-footer">
           Hospedaje America © 2016 - Developed by 
-          <a href="" style="background:blue; color:white; padding: 3px; padding-right: 5px; padding-left: 5px; text-decoration: none; border-radius: 5px; font-size: 14px">Enigma TM</a>
+          <a href="http://www.devhuayra.com" class='txtfooter' target="_blank" style="background: linear-gradient(to left,#00BCD4,#8BC34A); color:white; padding: 3px; padding-right: 5px; padding-left: 5px; text-decoration: none; border-radius: 5px; font-size: 14px">DevHuayra</a>
         </p>
+
+        <!--social media-->
+        <div style="padding-bottom: 30px; margin: 0 auto">
+          <ul>
+            <li>
+              <a href="http://www.facebook.com" target="_blank">
+                <img src="img/facebook.png" style='width: 30px'>
+              </a>
+            </li>
+            <li>
+              <a href="http://www.twitter.com" target="_blank">
+                <img src="img/twitter.png" style='width: 30px'>
+              </a>
+            </li>
+            <li>
+              <a href="http://plus.google.com" target="_blank">
+                <img src="img/googleplus.png" style='width: 30px'>
+              </a>
+            </li>
+            <li>
+              <a href="http://www.youtube.com" target="_blank">
+                <img src="img/youtube-variation.png" style='width: 30px'>
+              </a>
+            </li>
+          </ul>
+          <style type="text/css">
+            ul > li{
+               display: inline-block; 
+            }
+            .line-hor{
+              width: 75%;
+              border: solid 1px rgba(128, 128, 128, 0.44);
+              margin-bottom: 40px;
+            }
+          </style>
+        </div>
+        <!--END social media-->
+
       </div>
     </footer>
 
-
-    
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
@@ -64,7 +114,7 @@
         margin-bottom: 10px;
     }
     .text-footer{
-      font-size: 15px;
+      font-size: 17px;
     }
     #habitacionmatrimonial{
       /*background-image: url('http://wallpapercave.com/wp/uUO50NS.jpg'), linear-gradient(red,yellow);*/
@@ -100,8 +150,8 @@
     /*animation button down*/
     .btn-down-nmtn{
         /*animation: btndownanimate;*/
-        animation: btndownanimate 1.5s infinite;
-        position: absolute;
+        /*animation: btndownanimate 1.5s infinite;
+        position: absolute;*/
         margin-right: -20px;
         margin-left: -20px;
     }
@@ -144,7 +194,7 @@
     }
     .text-aside{
         font-family: 'Mandali', sans-serif;
-        font-size: 20px;
+        font-size: 17px;
     }
 
     *{
@@ -163,6 +213,12 @@
       .card{
         margin: 0 auto;
         text-align: center;
+      }
+      .text-footer{
+        font-size: 10px;
+      }
+      .text-aside{
+        font-size: 13px !important;
       }
     }
     @media screen and (min-width: 381px){
@@ -310,4 +366,9 @@
   .card{
       margin-top: 15px;
   }
+  footer .txtfooter{
+    font-family: 'Lobster Two', cursive;
+    font-size:20px;
+  }
+
 </style>

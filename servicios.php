@@ -81,30 +81,28 @@
 </section>
 
 <!-- section aour services hidden >600px -->
-<section id='headerinminix' class="backgroundwhite" style="">
+<!--section id='headerinminix' class="backgroundwhite" style="">
 		<div class="container">
 				<div class="row">
 						<div class="page-header tittle-ha">
 								<h1 class="titlediv" style="text-align:center; color:white">
-									<!--strong-->Nuestros Servicios<!--/strong-->
+                  Nuestros Servicios
 								</h1>
 								<div class="" style="border-bottom: solid 1px white; width:40%"></div>
 						</div>
 						<div class="card-text text-information" style="padding-bottom: 70px">
 								<p style="color:white">
-									<!--strong-->
 										Hospedaje America cuenta con los siguientes servicios a disposición de nuestra clientela, siempre buscando mejorar nuestros servicios con la finalidad de dar a nuestra clientela el mejor trato posible.
-									<!--/strong-->
 								</p>
 								<br>
 								<p><img class="btn-down-nmtn" src="https://james-lawrence-pkyt.squarespace.com/s/arrow-down2x.png" alt="" width="80px"></p>
 						</div>
 				</div>
 		</div>
-</section>
+</section-->
 
 <!--Habitacion simple list-->
-<section id="about" class="intro-section" style="background: -webkit-linear-gradient(#fff, #e9ebee);">
+<section id="about" class="intro-section" style="background: -webkit-linear-gradient(#fff, #e9ebee); padding-top: 50px">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">

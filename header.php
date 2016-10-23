@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="utf-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+    </style>
     
     <!--Refrescar la pag cada segundo-->
     <!--meta http-equiv="refresh" content="1"-->
@@ -62,9 +64,9 @@
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar" style="margin-right: 0px"></span>
+                    <span class="icon-bar" style="margin-right: 0px; width: 25px"></span>
                     <span class="icon-bar" style="width:30px; margin-right: 0px"></span>
-                    <span class="icon-bar" style="margin-right: 0px"></span>
+                    <span class="icon-bar" style="margin-right: 0px;width:22px"></span>
                 </button>
                 <a class="navbar-brand page-scroll" href="index.php">
                     <img class='img-logo-ha' src="img/logoha.png" alt="Hospedaje America" style=''>
@@ -112,7 +114,7 @@
                         <a class="page-scroll" href="simulator.php">Simulador</a>
                     </li-->
                     <li>
-                        <a class="page-scroll" href="contact.php">Contactos</a>
+                        <a class="page-scroll" href="#contactus">Contactos</a>
                     </li>
                 </ul>
             </div>
